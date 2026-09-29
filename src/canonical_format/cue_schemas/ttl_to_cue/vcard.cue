@@ -1,0 +1,85 @@
+package vcard
+
+import "example.com/models:util"
+
+#VCardActorClass:
+	"vcard:Group" |
+	"vcard:Individual" |
+	"vcard:Organization"
+
+#AdditionalVCardInformation: {
+	"vcard:additional-name"?: util.#JSONValue
+	"vcard:adr"?: util.#JSONValue
+	"vcard:anniversary"?: util.#JSONValue
+	"vcard:bday"?: util.#JSONValue
+	"vcard:category"?: util.#JSONValue
+	"vcard:country-name"?: util.#JSONValue
+	"vcard:email"?: util.#JSONValue
+	"vcard:family-name"?: util.#JSONValue
+	"vcard:geo"?: util.#JSONValue
+	"vcard:given-name"?: util.#JSONValue
+	"vcard:hasAdditionalName"?: util.#JSONValue
+	"vcard:hasAddress"?: util.#JSONValue
+	"vcard:hasCalendarBusy"?: util.#JSONValue
+	"vcard:hasCalendarLink"?: util.#JSONValue
+	"vcard:hasCalendarRequest"?: util.#JSONValue
+	"vcard:hasCategory"?: util.#JSONValue
+	"vcard:hasCountryName"?: util.#JSONValue
+	"vcard:hasFN"?: util.#JSONValue
+	"vcard:hasFamilyName"?: util.#JSONValue
+	"vcard:hasGender"?: util.#JSONValue
+	"vcard:hasGeo"?: util.#JSONValue
+	"vcard:hasGivenName"?: util.#JSONValue
+	"vcard:hasHonorificPrefix"?: util.#JSONValue
+	"vcard:hasHonorificSuffix"?: util.#JSONValue
+	"vcard:hasInstantMessage"?: util.#JSONValue
+	"vcard:hasKey"?: util.#JSONValue
+	"vcard:hasLanguage"?: util.#JSONValue
+	"vcard:hasLocality"?: util.#JSONValue
+	"vcard:hasLogo"?: util.#JSONValue
+	"vcard:hasMember"?: util.#JSONValue
+	"vcard:hasName"?: util.#JSONValue
+	"vcard:hasNickname"?: util.#JSONValue
+	"vcard:hasNote"?: util.#JSONValue
+	"vcard:hasOrganizationName"?: util.#JSONValue
+	"vcard:hasOrganizationUnit"?: util.#JSONValue
+	"vcard:hasPhoto"?: util.#JSONValue
+	"vcard:hasPostalCode"?: util.#JSONValue
+	"vcard:hasRegion"?: util.#JSONValue
+	"vcard:hasRelated"?: util.#JSONValue
+	"vcard:hasRole"?: util.#JSONValue
+	"vcard:hasSound"?: util.#JSONValue
+	"vcard:hasSource"?: util.#JSONValue
+	"vcard:hasStreetAddress"?: util.#JSONValue
+	"vcard:hasTelephone"?: util.#JSONValue
+	"vcard:hasTitle"?: util.#JSONValue
+	"vcard:hasUID"?: util.#JSONValue
+	"vcard:hasURL"?: util.#JSONValue
+	"vcard:hasValue"?: util.#JSONValue
+	"vcard:honorific-prefix"?: util.#JSONValue
+	"vcard:honorific-suffix"?: util.#JSONValue
+	"vcard:key"?: util.#JSONValue
+	"vcard:language"?: util.#JSONValue
+	"vcard:locality"?: util.#JSONValue
+	"vcard:logo"?: util.#JSONValue
+	"vcard:n"?: util.#JSONValue
+	"vcard:nickname"?: util.#JSONValue
+	"vcard:note"?: util.#JSONValue
+	"vcard:org"?: util.#JSONValue
+	"vcard:organization-name"?: util.#JSONValue
+	"vcard:organization-unit"?: util.#JSONValue
+	"vcard:photo"?: util.#JSONValue
+	"vcard:postal-code"?: util.#JSONValue
+	"vcard:prodid"?: util.#JSONValue
+	"vcard:region"?: util.#JSONValue
+	"vcard:rev"?: util.#JSONValue
+	"vcard:role"?: util.#JSONValue
+	"vcard:sort-string"?: util.#JSONValue
+	"vcard:sound"?: util.#JSONValue
+	"vcard:street-address"?: util.#JSONValue
+	"vcard:tel"?: util.#JSONValue
+	"vcard:title"?: util.#JSONValue
+	"vcard:tz"?: util.#JSONValue
+	"vcard:url"?: util.#JSONValue
+	"vcard:value"?: util.#JSONValue
+}

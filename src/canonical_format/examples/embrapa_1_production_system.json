@@ -1,0 +1,668 @@
+{
+    "id": "e3704781-4853-4890-bb4d-3fd159a2e0dd",
+    "datasetType": "productionSystem",
+    "parameterizations": [
+        {
+            "referenceType": "internalFile",
+            "fileId": "b53dfab0-08c7-419f-94f7-26ef02013c70",
+            "targetType": "parameter"
+        }
+    ],
+    "processInstances": [
+        {
+            "id": {
+                "referenceType": "internalFile",
+                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56",
+                "targetType": "process"
+            }
+        }
+    ],
+    "registry": {
+        "referenceType": "internalFile",
+        "fileId": "6c2868ee-becc-4d3d-a843-327eb4dda312",
+        "targetType": "registry"
+    },
+    "linking": {
+        "backgroundPartialLinkingMatrices": [
+            {
+                "linking": [
+                    {
+                        "id": {
+                            "processId": {
+                                "referenceType": "internalFile",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56",
+                                "targetType": "process"
+                            },
+                            "inputExchangeId": {
+                                "referenceType": "internal",
+                                "targetType": "exchange",
+                                "exchangeId": "214a914f-7dc4-4d39-babe-1e953adafebb",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56"
+                            }
+                        },
+                        "values": [
+                            {
+                                "id": {
+                                    "processRegistry": "c17624df-9e4d-4a3d-aebd-476c936f9c76",
+                                    "exchangeRegistry": "b900739f-d99c-4700-9c04-b09c5e3b4633",
+                                    "processId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "b5307541-8d89-45ec-b249-7ce39e4a0d3b",
+                                        "label": "fertilising, by broadcaster"
+                                    },
+                                    "exchangeId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "75168394-3da2-467a-90a1-285836ccd00d",
+                                        "label": "fertilising, by broadcaster"
+                                    },
+                                    "geography": "BR",
+                                    "model": "Cut-off"
+                                },
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": {
+                            "processId": {
+                                "referenceType": "internalFile",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56",
+                                "targetType": "process"
+                            },
+                            "inputExchangeId": {
+                                "referenceType": "internal",
+                                "targetType": "exchange",
+                                "exchangeId": "edcac629-5acc-43db-94f1-d7a21861b136",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56"
+                            }
+                        },
+                        "values": [
+                            {
+                                "id": {
+                                    "processRegistry": "c17624df-9e4d-4a3d-aebd-476c936f9c76",
+                                    "exchangeRegistry": "b900739f-d99c-4700-9c04-b09c5e3b4633",
+                                    "processId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "f63b4311-ddbe-420f-bc3a-a86e53524c6c",
+                                        "label": "sowing"
+                                    },
+                                    "exchangeId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "6c365ae3-f8cb-4aff-8709-afea7fbf0a40",
+                                        "label": "sowing"
+                                    },
+                                    "geography": "BR",
+                                    "model": "Cut-off"
+                                },
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": {
+                            "processId": {
+                                "referenceType": "internalFile",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56",
+                                "targetType": "process"
+                            },
+                            "inputExchangeId": {
+                                "referenceType": "internal",
+                                "targetType": "exchange",
+                                "exchangeId": "c502decc-6431-4ab2-8e00-cf2e30dfdddc",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56"
+                            }
+                        },
+                        "values": [
+                            {
+                                "id": {
+                                    "processRegistry": "c17624df-9e4d-4a3d-aebd-476c936f9c76",
+                                    "exchangeRegistry": "b900739f-d99c-4700-9c04-b09c5e3b4633",
+                                    "processId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "e11193fc-afec-4131-84b7-fe917c736394",
+                                        "label": "market for wood preservation, vacuum pressure method, inorganic salt, containing Cr, outdoor use, ground contact"
+                                    },
+                                    "exchangeId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "1ff576ab-ba77-45cd-af5a-97708507cc75",
+                                        "label": "wood preservation, vacuum pressure method, inorganic salt, containing Cr, outdoor use, ground contact"
+                                    },
+                                    "geography": "GLO",
+                                    "model": "Cut-off"
+                                },
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": {
+                            "processId": {
+                                "referenceType": "internalFile",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56",
+                                "targetType": "process"
+                            },
+                            "inputExchangeId": {
+                                "referenceType": "internal",
+                                "targetType": "exchange",
+                                "exchangeId": "4153292a-25d2-478d-adfe-bb056e5c7fad",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56"
+                            }
+                        },
+                        "values": [
+                            {
+                                "id": {
+                                    "processRegistry": "c17624df-9e4d-4a3d-aebd-476c936f9c76",
+                                    "exchangeRegistry": "b900739f-d99c-4700-9c04-b09c5e3b4633",
+                                    "processId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "20cf2534-1aae-4c3f-a8d0-4112ec671629",
+                                        "label": "market for sawlog and veneer log, eucalyptus ssp., measured as solid wood under bark"
+                                    },
+                                    "exchangeId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "3473bca6-5172-44d2-bda1-1f681e891ca8",
+                                        "label": "sawlog and veneer log, eucalyptus ssp., measured as solid wood under bark"
+                                    },
+                                    "geography": "RoW",
+                                    "model": "Cut-off"
+                                },
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": {
+                            "processId": {
+                                "referenceType": "internalFile",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56",
+                                "targetType": "process"
+                            },
+                            "inputExchangeId": {
+                                "referenceType": "internal",
+                                "targetType": "exchange",
+                                "exchangeId": "456ab1c5-368f-4f58-b9b9-5ee1394d7534",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56"
+                            }
+                        },
+                        "values": [
+                            {
+                                "id": {
+                                    "processRegistry": "c17624df-9e4d-4a3d-aebd-476c936f9c76",
+                                    "exchangeRegistry": "b900739f-d99c-4700-9c04-b09c5e3b4633",
+                                    "processId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "4a4b2e13-c2d2-4996-81c5-2d2c2708e3e6",
+                                        "label": "market for mowing, by rotary mower"
+                                    },
+                                    "exchangeId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "479ce50b-7465-4ee0-ada2-81418055c725",
+                                        "label": "mowing, by rotary mower"
+                                    },
+                                    "geography": "GLO",
+                                    "model": "Cut-off"
+                                },
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": {
+                            "processId": {
+                                "referenceType": "internalFile",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56",
+                                "targetType": "process"
+                            },
+                            "inputExchangeId": {
+                                "referenceType": "internal",
+                                "targetType": "exchange",
+                                "exchangeId": "69a72efe-4e78-40bc-9292-63aefce6a545",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56"
+                            }
+                        },
+                        "values": [
+                            {
+                                "id": {
+                                    "processRegistry": "c17624df-9e4d-4a3d-aebd-476c936f9c76",
+                                    "exchangeRegistry": "b900739f-d99c-4700-9c04-b09c5e3b4633",
+                                    "processId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "4c138e67-00e9-4470-aa0f-d6b99af899fb",
+                                        "label": "weed control, by brush cutter, pasture"
+                                    },
+                                    "exchangeId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "5f281e36-7bea-464e-b77c-83befc5332ae",
+                                        "label": "weed control, by brush cutter, pasture"
+                                    },
+                                    "geography": "BR",
+                                    "model": "Cut-off"
+                                },
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": {
+                            "processId": {
+                                "referenceType": "internalFile",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56",
+                                "targetType": "process"
+                            },
+                            "inputExchangeId": {
+                                "referenceType": "internal",
+                                "targetType": "exchange",
+                                "exchangeId": "3208ed2f-d52f-4358-8fbb-baafd5163bcf",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56"
+                            }
+                        },
+                        "values": [
+                            {
+                                "id": {
+                                    "processRegistry": "c17624df-9e4d-4a3d-aebd-476c936f9c76",
+                                    "exchangeRegistry": "b900739f-d99c-4700-9c04-b09c5e3b4633",
+                                    "processId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "0c7dfb86-f62f-4505-9d16-385055e3aa65",
+                                        "label": "limestone and gypsum application, by spreader"
+                                    },
+                                    "exchangeId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "f054b1e6-24cd-4d22-a001-1271cfa17a83",
+                                        "label": "limestone and gypsum application, by spreader"
+                                    },
+                                    "geography": "BR",
+                                    "model": "Cut-off"
+                                },
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": {
+                            "processId": {
+                                "referenceType": "internalFile",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56",
+                                "targetType": "process"
+                            },
+                            "inputExchangeId": {
+                                "referenceType": "internal",
+                                "targetType": "exchange",
+                                "exchangeId": "65a3eaa7-5bbd-43e4-a192-89d032a359c9",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56"
+                            }
+                        },
+                        "values": [
+                            {
+                                "id": {
+                                    "processRegistry": "c17624df-9e4d-4a3d-aebd-476c936f9c76",
+                                    "exchangeRegistry": "b900739f-d99c-4700-9c04-b09c5e3b4633",
+                                    "processId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "b7a0e09d-9565-4fd6-b867-081f6a16d739",
+                                        "label": "tillage, harrowing, by offset leveling disc harrow"
+                                    },
+                                    "exchangeId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "edcaa476-a810-42b5-bbf4-1220d8658c4a",
+                                        "label": "tillage, harrowing, by offset leveling disc harrow"
+                                    },
+                                    "geography": "BR",
+                                    "model": "Cut-off"
+                                },
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": {
+                            "processId": {
+                                "referenceType": "internalFile",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56",
+                                "targetType": "process"
+                            },
+                            "inputExchangeId": {
+                                "referenceType": "internal",
+                                "targetType": "exchange",
+                                "exchangeId": "5c37f1d6-d109-4f43-a60e-cef08e05f609",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56"
+                            }
+                        },
+                        "values": [
+                            {
+                                "id": {
+                                    "processRegistry": "c17624df-9e4d-4a3d-aebd-476c936f9c76",
+                                    "exchangeRegistry": "b900739f-d99c-4700-9c04-b09c5e3b4633",
+                                    "processId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "949e110f-0e31-4322-9fc1-f7038f72dbfd",
+                                        "label": "tillage, harrowing, by offset disc harrow"
+                                    },
+                                    "exchangeId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "2f618520-1bd4-440c-84cd-045335db2e6c",
+                                        "label": "tillage, harrowing, by offset disc harrow"
+                                    },
+                                    "geography": "BR",
+                                    "model": "Cut-off"
+                                },
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": {
+                            "processId": {
+                                "referenceType": "internalFile",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56",
+                                "targetType": "process"
+                            },
+                            "inputExchangeId": {
+                                "referenceType": "internal",
+                                "targetType": "exchange",
+                                "exchangeId": "7d1f96bb-1fee-4055-aacc-391d39b6b85f",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56"
+                            }
+                        },
+                        "values": [
+                            {
+                                "id": {
+                                    "processRegistry": "c17624df-9e4d-4a3d-aebd-476c936f9c76",
+                                    "exchangeRegistry": "b900739f-d99c-4700-9c04-b09c5e3b4633",
+                                    "processId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "6040589f-c4b9-47be-b8e4-659aa5781352",
+                                        "label": "market for maize grain"
+                                    },
+                                    "exchangeId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "dadc7057-9041-4fae-893c-20aba9725f29",
+                                        "label": "maize grain"
+                                    },
+                                    "geography": "BR",
+                                    "model": "Cut-off"
+                                },
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": {
+                            "processId": {
+                                "referenceType": "internalFile",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56",
+                                "targetType": "process"
+                            },
+                            "inputExchangeId": {
+                                "referenceType": "internal",
+                                "targetType": "exchange",
+                                "exchangeId": "413fd123-9eb3-43fd-91cc-6ad88b27bcf7",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56"
+                            }
+                        },
+                        "values": [
+                            {
+                                "id": {
+                                    "processRegistry": "c17624df-9e4d-4a3d-aebd-476c936f9c76",
+                                    "exchangeRegistry": "b900739f-d99c-4700-9c04-b09c5e3b4633",
+                                    "processId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "9fe8f5e1-d11f-484f-b4a2-552ce1487ced",
+                                        "label": "market for urea"
+                                    },
+                                    "exchangeId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "9e0c9c28-7d8f-4f18-a769-bff3a4c8c1e5",
+                                        "label": "urea"
+                                    },
+                                    "geography": "RoW",
+                                    "model": "Cut-off"
+                                },
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": {
+                            "processId": {
+                                "referenceType": "internalFile",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56",
+                                "targetType": "process"
+                            },
+                            "inputExchangeId": {
+                                "referenceType": "internal",
+                                "targetType": "exchange",
+                                "exchangeId": "d992aa99-7f94-4bd6-84bb-c821aefbb5f2",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56"
+                            }
+                        },
+                        "values": [
+                            {
+                                "id": {
+                                    "processRegistry": "c17624df-9e4d-4a3d-aebd-476c936f9c76",
+                                    "exchangeRegistry": "b900739f-d99c-4700-9c04-b09c5e3b4633",
+                                    "processId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "872d6e4d-9ff4-43c7-8572-8008f98e48e9",
+                                        "label": "market for inorganic phosphorus fertiliser, as P2O5"
+                                    },
+                                    "exchangeId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "5321a299-0c03-4bfc-9dda-d020456f6b2e",
+                                        "label": "inorganic phosphorus fertiliser, as P2O5"
+                                    },
+                                    "geography": "BR",
+                                    "model": "Cut-off"
+                                },
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": {
+                            "processId": {
+                                "referenceType": "internalFile",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56",
+                                "targetType": "process"
+                            },
+                            "inputExchangeId": {
+                                "referenceType": "internal",
+                                "targetType": "exchange",
+                                "exchangeId": "e7673942-5cc4-4013-b6a4-f67e1117a302",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56"
+                            }
+                        },
+                        "values": [
+                            {
+                                "id": {
+                                    "processRegistry": "c17624df-9e4d-4a3d-aebd-476c936f9c76",
+                                    "exchangeRegistry": "b900739f-d99c-4700-9c04-b09c5e3b4633",
+                                    "processId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "2a898fd7-e0e7-49d2-bd47-f3cb1a5edfcf",
+                                        "label": "market for soybean meal"
+                                    },
+                                    "exchangeId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "22cdac63-419a-4980-ad99-5c0caff0a614",
+                                        "label": "soybean meal"
+                                    },
+                                    "geography": "BR",
+                                    "model": "Cut-off"
+                                },
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": {
+                            "processId": {
+                                "referenceType": "internalFile",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56",
+                                "targetType": "process"
+                            },
+                            "inputExchangeId": {
+                                "referenceType": "internal",
+                                "targetType": "exchange",
+                                "exchangeId": "36081549-c72b-4da6-97e8-f783906ed2dd",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56"
+                            }
+                        },
+                        "values": [
+                            {
+                                "id": {
+                                    "processRegistry": "c17624df-9e4d-4a3d-aebd-476c936f9c76",
+                                    "exchangeRegistry": "b900739f-d99c-4700-9c04-b09c5e3b4633",
+                                    "processId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "00cd92ca-c3ca-47f9-9a38-82bc1bd04f3e",
+                                        "label": "market for quicklime, milled, packed"
+                                    },
+                                    "exchangeId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "a00b7e35-1bc7-4b73-9df8-05f3dd07ffdb",
+                                        "label": "quicklime, milled, packed"
+                                    },
+                                    "geography": "RoW",
+                                    "model": "Cut-off"
+                                },
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": {
+                            "processId": {
+                                "referenceType": "internalFile",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56",
+                                "targetType": "process"
+                            },
+                            "inputExchangeId": {
+                                "referenceType": "internal",
+                                "targetType": "exchange",
+                                "exchangeId": "1a030695-61e0-40c6-a4c3-c5fd4ebd8bc3",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56"
+                            }
+                        },
+                        "values": [
+                            {
+                                "id": {
+                                    "processRegistry": "c17624df-9e4d-4a3d-aebd-476c936f9c76",
+                                    "exchangeRegistry": "b900739f-d99c-4700-9c04-b09c5e3b4633",
+                                    "processId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "1b45628e-44bb-44c2-bb9f-ad75b590813b",
+                                        "label": "market for zinc coat, pieces"
+                                    },
+                                    "exchangeId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "2b12ef70-6607-4c11-9e28-c247ec9b59ce",
+                                        "label": "zinc coat, pieces"
+                                    },
+                                    "geography": "GLO",
+                                    "model": "Cut-off"
+                                },
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": {
+                            "processId": {
+                                "referenceType": "internalFile",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56",
+                                "targetType": "process"
+                            },
+                            "inputExchangeId": {
+                                "referenceType": "internal",
+                                "targetType": "exchange",
+                                "exchangeId": "712eaa18-a86c-4656-8a88-62393b2a9213",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56"
+                            }
+                        },
+                        "values": [
+                            {
+                                "id": {
+                                    "processRegistry": "c17624df-9e4d-4a3d-aebd-476c936f9c76",
+                                    "exchangeRegistry": "b900739f-d99c-4700-9c04-b09c5e3b4633",
+                                    "processId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "3805e8a9-09e8-444c-91a0-3a29e8e76412",
+                                        "label": "market for inorganic potassium fertiliser, as K2O"
+                                    },
+                                    "exchangeId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "7c4dafff-fe18-45c0-92e4-857950032abb",
+                                        "label": "inorganic potassium fertiliser, as K2O"
+                                    },
+                                    "geography": "BR",
+                                    "model": "Cut-off"
+                                },
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": {
+                            "processId": {
+                                "referenceType": "internalFile",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56",
+                                "targetType": "process"
+                            },
+                            "inputExchangeId": {
+                                "referenceType": "internal",
+                                "targetType": "exchange",
+                                "exchangeId": "2fe8daf5-9cb1-4575-8baa-09c5a66cc898",
+                                "fileId": "fd97fd2b-c6c1-482d-9f90-4314950d1a56"
+                            }
+                        },
+                        "values": [
+                            {
+                                "id": {
+                                    "processRegistry": "c17624df-9e4d-4a3d-aebd-476c936f9c76",
+                                    "exchangeRegistry": "b900739f-d99c-4700-9c04-b09c5e3b4633",
+                                    "processId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "de0187e2-7869-462e-92f3-e50813d423dd",
+                                        "label": "market for wire drawing, steel"
+                                    },
+                                    "exchangeId": {
+                                        "categoryType": "singleCategory",
+                                        "entryId": "444d81a0-13e0-41a4-8f63-e691b0133c04",
+                                        "label": "wire drawing, steel"
+                                    },
+                                    "geography": "GLO",
+                                    "model": "Cut-off"
+                                },
+                                "value": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": [
+        {
+            "id": "de17dbbd-2a69-4e61-a7d4-1ebff31a0419",
+            "property": "9767911c-ab5d-4eff-b150-215ca2a2ecb9",
+            "categorySystem": "b565dbf7-39c5-4f4f-98e7-ce797ddea6c9",
+            "value": {
+                "categoryType": "singleCategory",
+                "entryId": "8b738ea0-f89e-4627-8679-433616064e82",
+                "label": "Undefined"
+            }
+        }
+    ],
+    "fileInformation": {
+        "downloadableURI": "https://example.com/file_e3704781-4853-4890-bb4d-3fd159a2e0dd",
+        "versioning": {
+            "datasetVersion": "0.1.0",
+            "schemaVersion": "0.1.0"
+        },
+        "timestamp": {
+            "creation": "2026-08-01T21:08:00Z",
+            "lastEdit": "2026-08-01T21:09:00Z"
+        }
+    }
+}

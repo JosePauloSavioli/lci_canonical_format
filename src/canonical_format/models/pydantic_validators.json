@@ -1,0 +1,349 @@
+{
+    "OtherActorIdentification": {
+        "validators": [
+            {
+                "field": "system",
+                "function": "Lavoisier.conversions.models.validators.reject_orcid",
+                "mode": "after"
+            }
+        ]
+    },
+    "OtherSourceIdentification": {
+        "validators": [
+            {
+                "field": "system",
+                "function": "Lavoisier.conversions.models.validators.reject_source_system",
+                "mode": "after"
+            }
+        ]
+    },
+    "OtherHashAlgorithm": {
+        "validators": [
+            {
+                "field": "typeSystem",
+                "function": "Lavoisier.conversions.models.validators.reject_standard",
+                "mode": "after"
+            }
+        ]
+    },
+    "OtherNonReviewActivityIdentity": {
+        "validators": [
+            {
+                "field": "typeSystem",
+                "function": "Lavoisier.conversions.models.validators.reject_standard",
+                "mode": "after"
+            }
+        ]
+    },
+    "OtherReviewType": {
+        "validators": [
+            {
+                "field": "reviewSystem",
+                "function": "Lavoisier.conversions.models.validators.reject_ilcd",
+                "mode": "after"
+            }
+        ]
+    },
+    "ActivityDate": {
+        "validators": [
+            {
+                "field": "start",
+                "function": "Lavoisier.conversions.models.validators.validate_start_not_after_end",
+                "mode": "after"
+            }
+        ]
+    },
+    "ValidPeriod": {
+        "validators": [
+            {
+                "field": "start",
+                "function": "Lavoisier.conversions.models.validators.validate_start_not_after_end",
+                "mode": "after"
+            }
+        ]
+    },
+    "Timestamps": {
+        "validators": [
+            {
+                "field": "lastEdit",
+                "function": "Lavoisier.conversions.models.validators.validate_last_edit",
+                "mode": "after"
+            }
+        ]
+    },
+    "TruncatedDistribution1": {
+        "validators": [
+            {
+                "field": "minimum",
+                "function": "Lavoisier.conversions.models.validators.validate_minimum_below_maximum",
+                "mode": "after"
+            }
+        ]
+    },
+    "TruncatedDistribution2": {
+        "validators": [
+            {
+                "field": "minimum",
+                "function": "Lavoisier.conversions.models.validators.validate_minimum_below_maximum",
+                "mode": "after"
+            }
+        ]
+    },
+    "Uniform1Parameters": {
+        "validators": [
+            {
+                "field": "minimum",
+                "function": "Lavoisier.conversions.models.validators.validate_minimum_below_maximum",
+                "mode": "after"
+            }
+        ]
+    },
+    "UniformDiscrete1Parameters": {
+        "validators": [
+            {
+                "field": "minimum",
+                "function": "Lavoisier.conversions.models.validators.validate_minimum_not_above_maximum",
+                "mode": "after"
+            }
+        ]
+    },
+    "Triangular1Parameters": {
+        "validators": [
+            {
+                "field": "upperLimit",
+                "function": "Lavoisier.conversions.models.validators.validate_triangular_parameters",
+                "mode": "after"
+            }
+        ]
+    },
+    "Hypergeometric1Parameters": {
+        "validators": [
+            {
+                "field": "populationSize",
+                "function": "Lavoisier.conversions.models.validators.validate_hypergeometric_parameters",
+                "mode": "after"
+            }
+        ]
+    },
+    "MixtureDistribution": {
+        "validators": [
+            {
+                "field": "distributions",
+                "function": "Lavoisier.conversions.models.validators.validate_mixture_weights",
+                "mode": "after"
+            }
+        ]
+    },
+    "MatrixRow": {
+        "validators": [
+            {
+                "field": "values",
+                "function": "Lavoisier.conversions.models.validators.validate_covariance_row",
+                "mode": "after"
+            }
+        ]
+    },
+    "CovarianceMatrix": {
+        "validators": [
+            {
+                "field": "matrix",
+                "function": "Lavoisier.conversions.models.validators.validate_covariance_matrix",
+                "mode": "after"
+            }
+        ]
+    },
+    "ForegroundPartialLinkingMatrixRow": {
+        "validators": [
+            {
+                "field": "values",
+                "function": "Lavoisier.conversions.models.validators.validate_linking_values",
+                "mode": "after"
+            }
+        ]
+    },
+    "BackgroundPartialLinkingMatrixRow": {
+        "validators": [
+            {
+                "field": "values",
+                "function": "Lavoisier.conversions.models.validators.validate_linking_values",
+                "mode": "after"
+            }
+        ]
+    },
+    "ForegroundPartialLinking": {
+        "validators": [
+            {
+                "field": "linking",
+                "function": "Lavoisier.conversions.models.validators.validate_linking_rows",
+                "mode": "after"
+            }
+        ]
+    },
+    "BackgroundPartialLinking": {
+        "validators": [
+            {
+                "field": "linking",
+                "function": "Lavoisier.conversions.models.validators.validate_linking_rows",
+                "mode": "after"
+            }
+        ]
+    },
+    "InternalProviderReference": {
+        "validators": [
+            {
+                "field": "processId",
+                "function": "Lavoisier.conversions.models.validators.validate_process_exchange_reference",
+                "mode": "after"
+            }
+        ]
+    },
+    "InternalConsumerReference": {
+        "validators": [
+            {
+                "field": "processId",
+                "function": "Lavoisier.conversions.models.validators.validate_process_exchange_reference",
+                "mode": "after"
+            }
+        ]
+    },
+    "Model": {
+        "validators": [
+            {
+                "field": "parameters",
+                "function": "Lavoisier.conversions.models.validators.validate_model_parameters",
+                "mode": "after"
+            }
+        ]
+    },
+    "ParameterizationDataSet": {
+        "validators": [
+            {
+                "field": "models",
+                "function": "Lavoisier.conversions.models.validators.validate_parameterization_models",
+                "mode": "after"
+            }
+        ]
+    },
+    "Scenario": {
+        "validators": [
+            {
+                "field": "values",
+                "function": "Lavoisier.conversions.models.validators.validate_scenario_values",
+                "mode": "after"
+            }
+        ]
+    },
+    "ProductionSystemDataSet": {
+        "validators": [
+            {
+                "field": "processInstances",
+                "function": "Lavoisier.conversions.models.validators.validate_production_system_process_instances",
+                "mode": "after"
+            }
+        ]
+    },
+    "ProcessDataSet": {
+        "validators": [
+            {
+                "field": "exchanges",
+                "function": "Lavoisier.conversions.models.validators.validate_unique_exchanges",
+                "mode": "after"
+            }
+        ]
+    },
+    "Provenance": {
+        "validators": [
+            {
+                "field": "activities",
+                "function": "Lavoisier.conversions.models.validators.validate_unique_activities",
+                "mode": "after"
+            }
+        ]
+    },
+    "ProjectDataSet": {
+        "validators": [
+            {
+                "field": "productionSystems",
+                "function": "Lavoisier.conversions.models.validators.validate_unique_production_systems",
+                "mode": "after"
+            }
+        ]
+    },
+    "TransformationSet": {
+        "validators": [
+            {
+                "field": "transformations",
+                "function": "Lavoisier.conversions.models.validators.validate_unique_transformations",
+                "mode": "after"
+            }
+        ]
+    },
+    "LatitudeValue": {
+        "validators": [
+            {
+                "field": "value",
+                "function": "Lavoisier.conversions.models.validators.validate_latitude",
+                "mode": "after"
+            }
+        ]
+    },
+    "LongitudeValue": {
+        "validators": [
+            {
+                "field": "value",
+                "function": "Lavoisier.conversions.models.validators.validate_longitude",
+                "mode": "after"
+            }
+        ]
+    },
+    "RegistryDataSet": {
+        "validators": [
+            {
+                "field": "categories",
+                "function": "Lavoisier.conversions.models.validators.validate_bcp47_registry_prefix",
+                "mode": "after"
+            },
+            {
+                "field": "categories",
+                "function": "Lavoisier.conversions.models.validators.validate_ucum_registry_prefix",
+                "mode": "after"
+            },
+            {
+                "field": "categories",
+                "function": "Lavoisier.conversions.models.validators.validate_unique_categories",
+                "mode": "after"
+            },
+            {
+                "field": "flowables",
+                "function": "Lavoisier.conversions.models.validators.validate_unique_flowables",
+                "mode": "after"
+            },
+            {
+                "field": "properties",
+                "function": "Lavoisier.conversions.models.validators.validate_unique_properties",
+                "mode": "after"
+            },
+            {
+                "field": "sources",
+                "function": "Lavoisier.conversions.models.validators.validate_unique_sources",
+                "mode": "after"
+            },
+            {
+                "field": "tables",
+                "function": "Lavoisier.conversions.models.validators.validate_unique_tables",
+                "mode": "after"
+            },
+            {
+                "field": "units",
+                "function": "Lavoisier.conversions.models.validators.validate_unique_units",
+                "mode": "after"
+            },
+            {
+                "field": "actors",
+                "function": "Lavoisier.conversions.models.validators.validate_unique_actors",
+                "mode": "after"
+            }
+        ]
+    }
+}
+

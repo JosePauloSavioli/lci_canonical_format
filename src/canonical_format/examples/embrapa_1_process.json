@@ -1,0 +1,3874 @@
+{
+    "id": "fd97fd2b-c6c1-482d-9f90-4314950d1a56",
+    "datasetType": "process",
+    "name": "intensive beef cattle production, fat steers only, on pasture",
+    "comments": [
+        {
+            "text": "This dataset represents the intensive production of 1 kg of live weight of beef cattle, in Brazil, on planted pasture, at farm, for slaughtering. Discarded cattle (bulls and culled cows) are considered part of the product. Culled cows are replaced by some of the weaned heifers, all other weaned heifers are sold for fattening by other systems, and are considered by product. The dataset include operations for pasture maintenance and replanting. Fences are the only infrastructure included. Grass seeds are not included (less then 3% of product mass). The production of young bulls for reproduction is not included for the same reason, but their emissions in the farm and their live weight as product are considered. Direct field emissions are included, with important regionalizations added. Farm manure as an organic fertiliser is only accounted for in terms of direct field emissions."
+        },
+        {
+            "text": "Cattle is kept on regularly fertilized pastures. Mineral salt is served to all cattle in troughs on the field. Besides pasture and mineral salt, proteic supplement (maize, soybean meal, urea and salt) is served to weaned calves during the first dry season.  Fat steers receive concentrate feed for the last 80 days in troughs on the field and are sold for slaughter under 30 months. The dataset does not include pharmaceuticals, although typical production systems use them. Use of hormones for cattle raising is forbidden in Brazil."
+        }
+    ],
+    "properties": [
+        {
+            "id": "15982561-27d4-41f0-8bdc-1a325e1b91dd",
+            "property": "6cd90a91-83d9-4c97-b4ec-aac59c8553ea",
+            "categorySystem": "d8dd18d8-375e-4a44-a907-d37cc90fb936",
+            "value": {
+                "categoryType": "singleCategory",
+                "label": "Unit process"
+            }
+        },
+        {
+            "id": "b0e2079b-5998-46b9-bea2-404cb89e32ca",
+            "property": "da8735d7-e473-4c5b-8532-25bc40aba761",
+            "categorySystem": "62ed17d2-5585-4a99-9360-9bf3aab07573",
+            "value": {
+                "categoryType": "singleCategory",
+                "label": "ordinary transforming activity (default)"
+            }
+        },
+        {
+            "id": "486a2fd8-f535-4bf8-8fc5-289e1816f4f1",
+            "property": "85194c11-6de9-4272-a7ff-c64aa0bea6ea",
+            "categorySystem": "9268a9e2-d395-4f4d-adce-d015f2e52dae",
+            "value": {
+                "categoryType": "singleCategory",
+                "label": "not a child"
+            }
+        },
+        {
+            "id": "01c46aed-f5d1-4428-8f0a-52a590cfa278",
+            "property": "a158ab98-408a-430e-9cba-4bce9b85b9e1",
+            "categorySystem": "daabd84a-ed83-4851-87de-d39c21668d2a",
+            "value": {
+                "categoryType": "singleCategory",
+                "code": "0141",
+                "label": "Raising of cattle and buffaloes"
+            }
+        },
+        {
+            "id": "31001419-01ca-4183-ba95-64d90bc2c35d",
+            "property": "4e598c59-fec6-412d-9227-2c7929ce1985",
+            "value": {
+                "quantityType": "singleQuantity",
+                "amount": 30,
+                "unit": "02ac6827-7736-4992-8642-dc378b62ee41"
+            }
+        },
+        {
+            "id": "5b6451b1-5644-4177-89dc-9ad935ab026b",
+            "property": "6ee6a892-7c74-432f-a65d-261691d9f562",
+            "properties": [
+                {
+                    "id": "bfb2d9ce-0044-46a9-9f28-544961a02ee8",
+                    "property": "406bf044-7c7d-4a66-af04-4e19b1296cf3",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "2006-01-01"
+                    }
+                },
+                {
+                    "id": "d53cfc65-ed98-4c3d-a2ff-0439c46cb57b",
+                    "property": "68e86569-fe18-4283-9a6a-4b9e4246021f",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "2015-12-31"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "f5bee645-809e-4583-9a60-062df6e6c2f6",
+            "property": "99a6248f-dbb0-49dc-a4ad-23abab6ba25f",
+            "properties": [
+                {
+                    "id": "6d4d7c5c-bff2-4a5a-aef4-c0413e45d145",
+                    "property": "b629e5bf-48a8-4410-9103-f5cda1d9f729",
+                    "categorySystem": "d11d8db1-8e7d-4041-baff-7ebd0d2fca68",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "code": "001",
+                        "label": "Global"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "6558c7a7-8dd6-441e-9afa-4cd9284fd647",
+            "property": "a4146cc4-35d8-4a5e-8c75-9d3b717b4a24",
+            "categorySystem": "64905f6a-5218-4287-9ec9-7a81150c5ab3",
+            "value": {
+                "categoryType": "singleCategory",
+                "label": "Business-as-Usual"
+            }
+        },
+        {
+            "id": "cf0ce8b0-f9a8-445e-a22e-2fc63cf4587f",
+            "property": "542f6612-0aa9-4d52-82c0-7bb0f6c21d19",
+            "value": {
+                "quantityType": "singleQuantity",
+                "amount": 3,
+                "unit": "235d4569-26e3-4b6f-979d-ff2970ffecd4"
+            }
+        }
+    ],
+    "registry": {
+        "referenceType": "internalFile",
+        "fileId": "6c2868ee-becc-4d3d-a843-327eb4dda312",
+        "targetType": "registry"
+    },
+    "aggregatedProcesses": [
+        {
+            "processName": "replanting of pasture"
+        },
+        {
+            "processName": "provision of fat steers, culled cows and bulls at farm gate",
+            "description": "At farm gate, ready to be sent to slaughterhouses as live weight."
+        }
+    ],
+    "exchanges": [
+        {
+            "id": "214a914f-7dc4-4d39-babe-1e953adafebb",
+            "flowable": "75168394-3da2-467a-90a1-285836ccd00d",
+            "properties": [
+                {
+                    "id": "110746b9-718e-4d17-a706-704bf9909fe5",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "1f3c6e6f-4174-43ca-b32a-8ca53914cb42",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "9deecc0a-d838-44fc-bf90-0c5c8a7fc9cb",
+                    "property": "d695f836-5059-4e63-b6f0-bd093bc0e7f8",
+                    "categorySystem": "870f8b92-c608-4799-a75e-a46de92da782",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "allocatable product"
+                    }
+                },
+                {
+                    "id": "03991cba-0a84-4cc3-8a00-17e2a92087bf",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "intermediate"
+                    }
+                },
+                {
+                    "id": "6ea53f1c-23e0-4fda-aad5-d8d8a5e62609",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "input"
+                    }
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": 0.0026643,
+                "unit": "644ab3e0-2dcc-4c85-9efa-e21eca141f06",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Lognormal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000478",
+                        "name": "LogNormal3"
+                    },
+                    "parameters": {
+                        "median": 0.0026643,
+                        "stdevLog": 0.0244948974
+                    }
+                }
+            }
+        },
+        {
+            "id": "edcac629-5acc-43db-94f1-d7a21861b136",
+            "flowable": "6c365ae3-f8cb-4aff-8709-afea7fbf0a40",
+            "properties": [
+                {
+                    "id": "e555118e-8d64-4a86-a6dd-a7e21bc2a884",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "750f5456-4aaa-4b22-beaa-78299024641e",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "35cc0997-4725-4337-94e2-0c1117898baf",
+                    "property": "d695f836-5059-4e63-b6f0-bd093bc0e7f8",
+                    "categorySystem": "870f8b92-c608-4799-a75e-a46de92da782",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "allocatable product"
+                    }
+                },
+                {
+                    "id": "7da7edfb-44c9-4cd8-8ce3-3de07fd0742e",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "intermediate"
+                    }
+                },
+                {
+                    "id": "268cb2fd-672d-4c3d-8e13-3abd52f2a04b",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "input"
+                    }
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": 0.00023638,
+                "unit": "644ab3e0-2dcc-4c85-9efa-e21eca141f06",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Lognormal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000478",
+                        "name": "LogNormal3"
+                    },
+                    "parameters": {
+                        "median": 0.00023638,
+                        "stdevLog": 0.0244948974
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Fencing the farm: poles preservation by treatment with inorganic CCB (chromium, copper, boron) salt with the vacuum pressure method. Emissions in farm or after used were not included."
+                }
+            ],
+            "id": "c502decc-6431-4ab2-8e00-cf2e30dfdddc",
+            "flowable": "1ff576ab-ba77-45cd-af5a-97708507cc75",
+            "properties": [
+                {
+                    "id": "a52e0074-16cf-40ee-921d-c21a6b837f53",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "151458c6-a3df-4e8c-a376-ec945d2a7014",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "b3281381-f19c-4d2c-ad0b-e8c519c51f82",
+                    "property": "d695f836-5059-4e63-b6f0-bd093bc0e7f8",
+                    "categorySystem": "870f8b92-c608-4799-a75e-a46de92da782",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "allocatable product"
+                    }
+                },
+                {
+                    "id": "e3e6bcb7-a5cd-4afb-9631-be2d234ec4cc",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "intermediate"
+                    }
+                },
+                {
+                    "id": "1fd09cc7-57b0-4297-8afc-c3cb3ad18b1d",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "input"
+                    }
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": 0.000026192,
+                "unit": "1629204c-b659-4186-9495-dc257c41fab6",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Lognormal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000478",
+                        "name": "LogNormal3"
+                    },
+                    "parameters": {
+                        "median": 0.000026192,
+                        "stdevLog": 0.0244948974
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Fencing the farm: roundwood from eucalyptus for poles."
+                }
+            ],
+            "id": "4153292a-25d2-478d-adfe-bb056e5c7fad",
+            "flowable": "3473bca6-5172-44d2-bda1-1f681e891ca8",
+            "properties": [
+                {
+                    "id": "a3b871a3-25a3-4688-9605-997c9e11fb8f",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "83336a9b-148d-4be3-becf-22b2f846dd85",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "ed9ff043-a4e5-48d8-9abe-c86759da20e6",
+                    "property": "d695f836-5059-4e63-b6f0-bd093bc0e7f8",
+                    "categorySystem": "870f8b92-c608-4799-a75e-a46de92da782",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "allocatable product"
+                    }
+                },
+                {
+                    "id": "a63b8685-07a4-4b1a-a77d-028989f584ea",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "intermediate"
+                    }
+                },
+                {
+                    "id": "56afc97a-66cd-42e3-af40-e0958b0f10bc",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "input"
+                    }
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": 3.021E-8,
+                "unit": "de5b3c87-0e35-4fb0-9765-4f3ba34c99e5",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Lognormal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000478",
+                        "name": "LogNormal3"
+                    },
+                    "parameters": {
+                        "median": 3.021E-8,
+                        "stdevLog": 0.0244948974
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "To be replaced by as activity link to new BR dataset for weed control, by brush cutter, pasture"
+                }
+            ],
+            "id": "456ab1c5-368f-4f58-b9b9-5ee1394d7534",
+            "flowable": "479ce50b-7465-4ee0-ada2-81418055c725",
+            "properties": [
+                {
+                    "id": "ece5ae0a-1735-4056-bf04-c314ca327fdd",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "fcda75ac-f46c-480a-92a9-839912c1158a",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "e972b38c-c4d3-4fc3-a2f5-f35c0d8a020f",
+                    "property": "d695f836-5059-4e63-b6f0-bd093bc0e7f8",
+                    "categorySystem": "870f8b92-c608-4799-a75e-a46de92da782",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "allocatable product"
+                    }
+                },
+                {
+                    "id": "67286e61-a289-4949-98e9-d75c25325e56",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "intermediate"
+                    }
+                },
+                {
+                    "id": "2d1ed05b-7494-4285-b786-58785854e917",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "input"
+                    }
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": 0.0011819,
+                "unit": "644ab3e0-2dcc-4c85-9efa-e21eca141f06",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Lognormal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000478",
+                        "name": "LogNormal3"
+                    },
+                    "parameters": {
+                        "median": 0.0011819,
+                        "stdevLog": 0.0244948974
+                    }
+                }
+            }
+        },
+        {
+            "id": "69a72efe-4e78-40bc-9292-63aefce6a545",
+            "flowable": "5f281e36-7bea-464e-b77c-83befc5332ae",
+            "properties": [
+                {
+                    "id": "5c241185-bcb6-4af7-aeb0-f26ea90693b1",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "316f63e8-c86b-4c98-9cbe-a333823eb2c2",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "e69e1ecd-fca3-4385-9107-d3cef029755e",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "intermediate"
+                    }
+                },
+                {
+                    "id": "5c49c52f-37b8-4fc5-aaf0-5fa9176e5eb9",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "input"
+                    }
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": 0.0011819,
+                "unit": "644ab3e0-2dcc-4c85-9efa-e21eca141f06",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Lognormal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000478",
+                        "name": "LogNormal3"
+                    },
+                    "parameters": {
+                        "median": 0.0011819,
+                        "stdevLog": 0.0244948974
+                    }
+                }
+            }
+        },
+        {
+            "id": "3208ed2f-d52f-4358-8fbb-baafd5163bcf",
+            "flowable": "f054b1e6-24cd-4d22-a001-1271cfa17a83",
+            "properties": [
+                {
+                    "id": "08bd54fb-b16c-42e6-bb28-4d6455df6fe2",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "45f8af1f-f027-4736-a5d3-aa88a05e437e",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "49ffec26-4284-4e55-a834-b271b85ea79f",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "intermediate"
+                    }
+                },
+                {
+                    "id": "11d23485-58b0-47d4-aecf-2ba5b2dc1384",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "input"
+                    }
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": 0.00023638,
+                "unit": "644ab3e0-2dcc-4c85-9efa-e21eca141f06",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Lognormal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000478",
+                        "name": "LogNormal3"
+                    },
+                    "parameters": {
+                        "median": 0.00023638,
+                        "stdevLog": 0.0244948974
+                    }
+                }
+            }
+        },
+        {
+            "id": "65a3eaa7-5bbd-43e4-a192-89d032a359c9",
+            "flowable": "edcaa476-a810-42b5-bbf4-1220d8658c4a",
+            "properties": [
+                {
+                    "id": "947b556d-11e6-4ea6-9585-c4ec36b53a6a",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "48749687-823e-4dfa-b326-fde1bc503d4e",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "f1bb5ef1-68b3-46c7-b48d-a0ea210bb56b",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "intermediate"
+                    }
+                },
+                {
+                    "id": "942f4657-b0bf-495c-a0a1-37cb224b47e0",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "input"
+                    }
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": 0.00047275,
+                "unit": "644ab3e0-2dcc-4c85-9efa-e21eca141f06",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Lognormal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000478",
+                        "name": "LogNormal3"
+                    },
+                    "parameters": {
+                        "median": 0.00047275,
+                        "stdevLog": 0.0244948974
+                    }
+                }
+            }
+        },
+        {
+            "id": "5c37f1d6-d109-4f43-a60e-cef08e05f609",
+            "flowable": "2f618520-1bd4-440c-84cd-045335db2e6c",
+            "properties": [
+                {
+                    "id": "77762b20-e389-450e-823a-49d6e25065ca",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "27fddeac-23cf-42e3-818b-18ddb1b6be7a",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "075510dc-2e7d-43bd-95ee-4972aeac7906",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "intermediate"
+                    }
+                },
+                {
+                    "id": "db01db1a-58df-44fe-9322-2fb0eea9ec77",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "input"
+                    }
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": 0.00023638,
+                "unit": "644ab3e0-2dcc-4c85-9efa-e21eca141f06",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Lognormal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000478",
+                        "name": "LogNormal3"
+                    },
+                    "parameters": {
+                        "median": 0.00023638,
+                        "stdevLog": 0.0244948974
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Weaned heifers sold."
+                }
+            ],
+            "id": "9adcc331-af66-4a02-a10d-a464f7ca61fe",
+            "flowable": "4a62806e-17d6-473e-95fc-394ac760261e",
+            "properties": [
+                {
+                    "id": "f40e28c8-c718-4bd4-8f2c-b8769f1674e5",
+                    "property": "b3b96e47-db1f-496c-b73d-55b91716a5e7",
+                    "value": {
+                        "quantityType": "resultingQuantity",
+                        "parameter": {
+                            "referenceType": "internal",
+                            "targetType": "parameter",
+                            "parameterId": "2093f354-aa6c-485c-9f85-17faec7646af",
+                            "fileId": "b53dfab0-08c7-419f-94f7-26ef02013c70"
+                        }
+                    },
+                    "comments": [
+                        {
+                            "text": "Calculated from production volume of reference product using the relative outputs."
+                        }
+                    ]
+                },
+                {
+                    "id": "885d00a3-d43f-4bdc-8497-38fd67e242c4",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "253c1304-b74c-41a6-b360-0df49ac6cd40",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "4f354672-220f-417f-98e5-83cc8e056157",
+                    "property": "d695f836-5059-4e63-b6f0-bd093bc0e7f8",
+                    "categorySystem": "870f8b92-c608-4799-a75e-a46de92da782",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "allocatable product"
+                    }
+                },
+                {
+                    "id": "ed3e5887-9dc4-45e9-b8aa-1b19e6041927",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "intermediate"
+                    }
+                },
+                {
+                    "id": "631f1309-5d5d-46f8-90db-dcc97aa48396",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "output"
+                    }
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": 0.10657,
+                "unit": "1629204c-b659-4186-9495-dc257c41fab6",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Lognormal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000478",
+                        "name": "LogNormal3"
+                    },
+                    "parameters": {
+                        "median": 0.10657,
+                        "stdevLog": 0.0244948974
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Fencing the farm: steel wire."
+                }
+            ],
+            "id": "4d6a2e3b-c72a-454e-bcba-ef6ff50022dc",
+            "flowable": "d7432632-40dc-4af8-8125-cb70dd9742c5",
+            "properties": [
+                {
+                    "id": "a5489466-e605-4b72-9102-25cb0d969004",
+                    "property": "b3b96e47-db1f-496c-b73d-55b91716a5e7",
+                    "value": {
+                        "quantityType": "resultingQuantity",
+                        "parameter": {
+                            "referenceType": "internal",
+                            "targetType": "parameter",
+                            "parameterId": "ec7c7f69-6646-4520-ad51-fd2af09e4567",
+                            "fileId": "b53dfab0-08c7-419f-94f7-26ef02013c70"
+                        }
+                    },
+                    "comments": [
+                        {
+                            "text": "Calculated from production volume of reference product using the relative outputs."
+                        }
+                    ]
+                },
+                {
+                    "id": "a20a9e2f-b3f0-40fd-8358-f8adf7f419c4",
+                    "property": "d695f836-5059-4e63-b6f0-bd093bc0e7f8",
+                    "categorySystem": "870f8b92-c608-4799-a75e-a46de92da782",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "Recyclable"
+                    }
+                },
+                {
+                    "id": "807364e5-a068-4aec-8292-d134a630c944",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "intermediate"
+                    }
+                },
+                {
+                    "id": "17d2d033-4e50-4fe7-a346-9784c92c305c",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "output"
+                    }
+                }
+            ],
+            "quantity": {
+                "quantityType": "resultingQuantity",
+                "parameter": {
+                    "referenceType": "internal",
+                    "targetType": "parameter",
+                    "parameterId": "0d308d3e-36f2-4691-bf7d-a8ecc68e985b",
+                    "fileId": "b53dfab0-08c7-419f-94f7-26ef02013c70"
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Fencing the farm: waste wood poles from fences (after periodic replacement)."
+                }
+            ],
+            "id": "f1bcab80-533e-4d37-9a4e-04656a4be51c",
+            "flowable": "7ef961a9-b8c2-425f-8b79-9ad184c86c00",
+            "properties": [
+                {
+                    "id": "a6dcfb90-e83a-4688-9181-6a57f142d8e7",
+                    "property": "b3b96e47-db1f-496c-b73d-55b91716a5e7",
+                    "value": {
+                        "quantityType": "resultingQuantity",
+                        "parameter": {
+                            "referenceType": "internal",
+                            "targetType": "parameter",
+                            "parameterId": "91c71307-71b4-41d3-b151-1b82c339bc9c",
+                            "fileId": "b53dfab0-08c7-419f-94f7-26ef02013c70"
+                        }
+                    },
+                    "comments": [
+                        {
+                            "text": "Calculated from production volume of reference product using the relative outputs."
+                        }
+                    ]
+                },
+                {
+                    "id": "ee3238ec-ca7a-4ddc-af1b-e7c35957b9b6",
+                    "property": "d695f836-5059-4e63-b6f0-bd093bc0e7f8",
+                    "categorySystem": "870f8b92-c608-4799-a75e-a46de92da782",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "Waste"
+                    }
+                },
+                {
+                    "id": "711a3ca9-39c5-4da2-bba5-63055811f9d2",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "intermediate"
+                    }
+                },
+                {
+                    "id": "417286f3-e720-47ed-a043-9e713f1f9862",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "output"
+                    }
+                }
+            ],
+            "quantity": {
+                "quantityType": "resultingQuantity",
+                "parameter": {
+                    "referenceType": "internal",
+                    "targetType": "parameter",
+                    "parameterId": "b9bbc3a0-f20e-4141-8467-e73f4524df9a",
+                    "fileId": "b53dfab0-08c7-419f-94f7-26ef02013c70"
+                }
+            }
+        },
+        {
+            "id": "11da3d42-1a11-41d0-bc4d-7421ea4e0b2e",
+            "flowable": "49719318-578e-40fe-b359-0780c8df9221",
+            "properties": [
+                {
+                    "id": "6bdcdc32-440b-4690-b731-30f3aad222f9",
+                    "property": "b3b96e47-db1f-496c-b73d-55b91716a5e7",
+                    "value": {
+                        "quantityType": "resultingQuantity",
+                        "parameter": {
+                            "referenceType": "internal",
+                            "targetType": "parameter",
+                            "parameterId": "36efb3a7-0948-4aaa-9caf-d7d8c6f8fe91",
+                            "fileId": "b53dfab0-08c7-419f-94f7-26ef02013c70"
+                        }
+                    },
+                    "comments": [
+                        {
+                            "text": "(GLO beef production in 2015) * (% of system in GLO in 2015) * (1 - % beef production from milk cattle in GLO) / (carcass as live weight, GLO average)"
+                        }
+                    ]
+                },
+                {
+                    "id": "a2990201-cc03-45d5-8d96-0b8dcb472305",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "e15e8628-dcda-46e0-bddb-94b225204ad1",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "c8735895-dfde-4246-9518-011a805c6a9c",
+                    "property": "d695f836-5059-4e63-b6f0-bd093bc0e7f8",
+                    "categorySystem": "870f8b92-c608-4799-a75e-a46de92da782",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "allocatable product"
+                    }
+                },
+                {
+                    "id": "58f3a9b4-8159-4202-a56e-01fe36252dd1",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "intermediate"
+                    }
+                },
+                {
+                    "id": "cd958c4c-6cad-494d-9e67-644401d78da9",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "output"
+                    }
+                },
+                {
+                    "id": "de03143b-5564-453d-b0b9-6e7488599108",
+                    "property": "eb06d312-7738-42b2-a6c9-ac1fe9a018f4",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": true
+                    }
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": 1,
+                "unit": "1629204c-b659-4186-9495-dc257c41fab6",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Lognormal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000478",
+                        "name": "LogNormal3"
+                    },
+                    "parameters": {
+                        "median": 1,
+                        "stdevLog": 0.0244948974
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "For cattle feed."
+                }
+            ],
+            "id": "7d1f96bb-1fee-4055-aacc-391d39b6b85f",
+            "flowable": "dadc7057-9041-4fae-893c-20aba9725f29",
+            "properties": [
+                {
+                    "id": "194740b1-12c8-48bf-a996-9ebc61dc5ce7",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "ae13403e-c16c-481d-b79d-b01f698bc0da",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "6cfb9c7f-08ae-4bf6-a6c7-f0faeddbee79",
+                    "property": "d695f836-5059-4e63-b6f0-bd093bc0e7f8",
+                    "categorySystem": "870f8b92-c608-4799-a75e-a46de92da782",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "allocatable product"
+                    }
+                },
+                {
+                    "id": "79282216-0cde-46bc-877e-72dc8e0aca31",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "intermediate"
+                    }
+                },
+                {
+                    "id": "94eb3ff9-d125-44bd-9e83-aa4591ac289d",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "input"
+                    }
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": 0.38988,
+                "unit": "1629204c-b659-4186-9495-dc257c41fab6",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Lognormal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000478",
+                        "name": "LogNormal3"
+                    },
+                    "parameters": {
+                        "median": 0.38988,
+                        "stdevLog": 0.0244948974
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Urea for cattle feed and pasture fertilization."
+                }
+            ],
+            "id": "413fd123-9eb3-43fd-91cc-6ad88b27bcf7",
+            "flowable": "9e0c9c28-7d8f-4f18-a769-bff3a4c8c1e5",
+            "properties": [
+                {
+                    "id": "aa8a9a81-f796-45fd-a3c7-baa2902e4ef0",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "c985f2a7-6030-4c80-a1c1-2f37bdc0363e",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "f50d00ae-e59a-4002-973a-251da4891dc3",
+                    "property": "d695f836-5059-4e63-b6f0-bd093bc0e7f8",
+                    "categorySystem": "870f8b92-c608-4799-a75e-a46de92da782",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "allocatable product"
+                    }
+                },
+                {
+                    "id": "837ca7ea-91bd-45a7-a293-cf78419c986d",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "intermediate"
+                    }
+                },
+                {
+                    "id": "cc3549e3-d90e-4b17-b95f-8f81d94b88b7",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "input"
+                    }
+                }
+            ],
+            "quantity": {
+                "quantityType": "resultingQuantity",
+                "parameter": {
+                    "referenceType": "internal",
+                    "targetType": "parameter",
+                    "parameterId": "b6f5ce00-dd7b-479a-bd54-26c3232db9e4",
+                    "fileId": "b53dfab0-08c7-419f-94f7-26ef02013c70"
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Phosphate fertilizer for pasture replanting or maintenance."
+                }
+            ],
+            "id": "d992aa99-7f94-4bd6-84bb-c821aefbb5f2",
+            "flowable": "5321a299-0c03-4bfc-9dda-d020456f6b2e",
+            "properties": [
+                {
+                    "id": "1a6121f9-9049-4454-9d30-f7fa53548b72",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "0e85e87b-3b27-4176-b5d7-e34170c66f43",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "15385631-1387-4ade-8dad-ddabcc60f548",
+                    "property": "d695f836-5059-4e63-b6f0-bd093bc0e7f8",
+                    "categorySystem": "870f8b92-c608-4799-a75e-a46de92da782",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "allocatable product"
+                    }
+                },
+                {
+                    "id": "0685ad12-b899-49b1-89c8-e127891978ad",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "intermediate"
+                    }
+                },
+                {
+                    "id": "c247e674-f57c-40ef-b2e3-e8d7486dbb56",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "input"
+                    }
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": 0.090679,
+                "unit": "1629204c-b659-4186-9495-dc257c41fab6",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Lognormal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000478",
+                        "name": "LogNormal3"
+                    },
+                    "parameters": {
+                        "median": 0.090679,
+                        "stdevLog": 0.0244948974
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "For concentrate formulation."
+                }
+            ],
+            "id": "e7673942-5cc4-4013-b6a4-f67e1117a302",
+            "flowable": "22cdac63-419a-4980-ad99-5c0caff0a614",
+            "properties": [
+                {
+                    "id": "424202da-f653-4988-8d59-7b7e06c3f563",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "85b04dc5-b774-442f-913e-a6d90083bc4f",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "da0d9b02-8f9a-4b70-ac45-80dd4d61cedd",
+                    "property": "d695f836-5059-4e63-b6f0-bd093bc0e7f8",
+                    "categorySystem": "870f8b92-c608-4799-a75e-a46de92da782",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "allocatable product"
+                    }
+                },
+                {
+                    "id": "f8cf06fa-4ced-4533-9049-cde5180fd9f4",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "intermediate"
+                    }
+                },
+                {
+                    "id": "3ea87514-82f8-4e38-b43f-3baae1df1020",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "input"
+                    }
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": 0.083868,
+                "unit": "1629204c-b659-4186-9495-dc257c41fab6",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Lognormal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000478",
+                        "name": "LogNormal3"
+                    },
+                    "parameters": {
+                        "median": 0.083868,
+                        "stdevLog": 0.0244948974
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Lime applied for pasture replanting or maintenance."
+                }
+            ],
+            "id": "36081549-c72b-4da6-97e8-f783906ed2dd",
+            "flowable": "a00b7e35-1bc7-4b73-9df8-05f3dd07ffdb",
+            "properties": [
+                {
+                    "id": "0855e646-ad7a-41ee-90bc-f7455c840518",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "5f38a3b0-85a0-4e3a-ab86-15e864f95eb8",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "8765652c-bf7d-423c-9fb9-33f206cada2f",
+                    "property": "d695f836-5059-4e63-b6f0-bd093bc0e7f8",
+                    "categorySystem": "870f8b92-c608-4799-a75e-a46de92da782",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "allocatable product"
+                    }
+                },
+                {
+                    "id": "6a32b879-e040-463f-b626-ad3c84d7c34a",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "intermediate"
+                    }
+                },
+                {
+                    "id": "e82c1bd9-f165-445d-ab4b-00c744278286",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "input"
+                    }
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": 1.7002,
+                "unit": "1629204c-b659-4186-9495-dc257c41fab6",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Lognormal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000478",
+                        "name": "LogNormal3"
+                    },
+                    "parameters": {
+                        "median": 1.7002,
+                        "stdevLog": 0.0244948974
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Fencing the farm: steel wire zinc coating."
+                }
+            ],
+            "id": "1a030695-61e0-40c6-a4c3-c5fd4ebd8bc3",
+            "flowable": "2b12ef70-6607-4c11-9e28-c247ec9b59ce",
+            "properties": [
+                {
+                    "id": "c1b7aca9-130d-45f8-a97e-c8abe45424d0",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "de547c25-a777-45d7-a201-fce3f9f99d9d",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "977cb8da-86fe-4929-ab6c-b213182368dc",
+                    "property": "d695f836-5059-4e63-b6f0-bd093bc0e7f8",
+                    "categorySystem": "870f8b92-c608-4799-a75e-a46de92da782",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "allocatable product"
+                    }
+                },
+                {
+                    "id": "c8dc6765-4749-43e8-8462-1fe50597850a",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "intermediate"
+                    }
+                },
+                {
+                    "id": "2a20bb90-1ca4-4ef8-9ec8-5420d8367706",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "input"
+                    }
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": 0.00012567,
+                "unit": "1017f68a-f818-4f9d-a34d-a31e7386f628",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Lognormal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000478",
+                        "name": "LogNormal3"
+                    },
+                    "parameters": {
+                        "median": 0.00012567,
+                        "stdevLog": 0.0244948974
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Potassium fertilizer for pasture replanting and maintenance."
+                }
+            ],
+            "id": "712eaa18-a86c-4656-8a88-62393b2a9213",
+            "flowable": "7c4dafff-fe18-45c0-92e4-857950032abb",
+            "properties": [
+                {
+                    "id": "b7bfecc8-5559-4f20-9d11-236c502d3589",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "6168ec9b-29e2-45ed-af35-23283f688341",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "af24d4f9-1495-40a0-8203-ad2d1f0a7cd6",
+                    "property": "d695f836-5059-4e63-b6f0-bd093bc0e7f8",
+                    "categorySystem": "870f8b92-c608-4799-a75e-a46de92da782",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "allocatable product"
+                    }
+                },
+                {
+                    "id": "29b6b7da-39c6-433f-bf36-c5c61bc69523",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "intermediate"
+                    }
+                },
+                {
+                    "id": "978049f6-6322-4aa1-a8bc-ea9894e0ae41",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "input"
+                    }
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": 0.085951,
+                "unit": "1629204c-b659-4186-9495-dc257c41fab6",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Lognormal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000478",
+                        "name": "LogNormal3"
+                    },
+                    "parameters": {
+                        "median": 0.085951,
+                        "stdevLog": 0.0244948974
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Fencing the farm: steel wire."
+                }
+            ],
+            "id": "2fe8daf5-9cb1-4575-8baa-09c5a66cc898",
+            "flowable": "444d81a0-13e0-41a4-8f63-e691b0133c04",
+            "properties": [
+                {
+                    "id": "c1ae5882-ed3a-4537-af06-a32cb99fd8ba",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "36ad5149-79b2-4f1c-96b8-02eb5c49a6a5",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "39b0f0ab-1a2f-401b-9f4d-6e39400760a4",
+                    "property": "d695f836-5059-4e63-b6f0-bd093bc0e7f8",
+                    "categorySystem": "870f8b92-c608-4799-a75e-a46de92da782",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "allocatable product"
+                    }
+                },
+                {
+                    "id": "e6c11d06-fe34-4237-a864-9da9fbc1d480",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "intermediate"
+                    }
+                },
+                {
+                    "id": "01a1980e-4e0f-43c7-8c18-816333703d63",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "input"
+                    }
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": 0.00052917,
+                "unit": "1629204c-b659-4186-9495-dc257c41fab6",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Lognormal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000478",
+                        "name": "LogNormal3"
+                    },
+                    "parameters": {
+                        "median": 0.00052917,
+                        "stdevLog": 0.0244948974
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "From Folegatti et al. (2015)."
+                }
+            ],
+            "id": "6772659d-242d-4a1c-a83e-406b3c0d3378",
+            "flowable": "2c126bcc-bb63-4d63-bd72-f02a1e616809",
+            "properties": [
+                {
+                    "id": "0c5cf0d5-b4d4-4300-ba85-a0103642597a",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "55a35e5b-c912-4161-b0c4-53eca828a1b5",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "4cc73024-d83a-4717-a35f-1ba3356d0062",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "elementary"
+                    }
+                },
+                {
+                    "id": "085e3402-1b46-4279-893b-76e6645c9afa",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "input"
+                    }
+                },
+                {
+                    "id": "a5466d97-e4cb-4f17-a997-80cb96818ee1",
+                    "property": "735f3642-52b0-4f1c-90b3-78b0f7bafbeb",
+                    "categorySystem": "c7c8eb64-6072-44ab-9753-5e25f4bac7e2",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "resource extraction"
+                    }
+                },
+                {
+                    "id": "cbb038dd-eb9d-429c-a1c9-f946da404ab5",
+                    "property": "5119af08-62a1-4cb3-aa30-527cd72b5d90",
+                    "properties": [
+                        {
+                            "id": "dc321e19-504e-4b48-b1da-91208d466f6c",
+                            "property": "35478f20-e60e-4aad-82a9-1fcf0f4aea98",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "natural resource"
+                            }
+                        },
+                        {
+                            "id": "ac096e6a-fbee-43a8-90de-8ca10bbe6c03",
+                            "property": "5027f4e3-6af1-47c9-b151-12088a5200b0",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "land"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "quantity": {
+                "quantityType": "resultingQuantity",
+                "parameter": {
+                    "referenceType": "internal",
+                    "targetType": "parameter",
+                    "parameterId": "b125d35c-a319-4219-b5d9-ddb2d7729922",
+                    "fileId": "b53dfab0-08c7-419f-94f7-26ef02013c70"
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "NH3 emissions from applied mineral fertilisers are calculated by constant emission factors for each group of fertiliser. For urea, 20%. See Nemecek et al. (2015)."
+                }
+            ],
+            "id": "6dae27ac-2096-4fb1-aa08-15fb0ed58722",
+            "flowable": "0f440cc0-0f74-446d-99d6-8ff0e97a2444",
+            "properties": [
+                {
+                    "id": "7ec43bde-164c-4328-ac76-e09c9b84e448",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "d71185bf-8913-40ff-87f3-fc5857b9eb20",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "e74989b8-751a-444c-9b82-f2b0d9ac6533",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "elementary"
+                    }
+                },
+                {
+                    "id": "f7978102-573a-4529-945d-53f5784d368a",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "output"
+                    }
+                },
+                {
+                    "id": "67691c7b-1534-4eb3-ac3f-2810cc819eb5",
+                    "property": "735f3642-52b0-4f1c-90b3-78b0f7bafbeb",
+                    "categorySystem": "c7c8eb64-6072-44ab-9753-5e25f4bac7e2",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "emission"
+                    }
+                },
+                {
+                    "id": "9733db01-c4fe-4ba1-bc3e-f3f967b24ea8",
+                    "property": "5119af08-62a1-4cb3-aa30-527cd72b5d90",
+                    "properties": [
+                        {
+                            "id": "82993e5c-184e-408d-9afc-72c67affbf64",
+                            "property": "35478f20-e60e-4aad-82a9-1fcf0f4aea98",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "air"
+                            }
+                        },
+                        {
+                            "id": "bdc9e06c-f846-47c2-b00e-029b0cbfcb4a",
+                            "property": "f84fa310-200d-4359-bc12-7b99c4659ec6",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "high stacks"
+                            }
+                        },
+                        {
+                            "id": "a0b31f64-89a5-45ef-9609-bc9e93d09600",
+                            "property": "9398d975-d406-4276-9755-8c01804a9d61",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "non-urban"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "quantity": {
+                "quantityType": "resultingQuantity",
+                "parameter": {
+                    "referenceType": "internal",
+                    "targetType": "parameter",
+                    "parameterId": "0741ee4c-acee-456e-87ba-ef71069da402",
+                    "fileId": "b53dfab0-08c7-419f-94f7-26ef02013c70"
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Emissions of CO2 to air from limestone and urea application based on IPCC (2006)."
+                }
+            ],
+            "id": "ff994540-e456-4f0c-8aae-231c2b72d68c",
+            "flowable": "aa7cac3a-3625-41d4-bc54-33e2cf11ec46",
+            "properties": [
+                {
+                    "id": "c7aa016f-a0ba-4059-83bf-91ca852e796b",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "e9b75f53-af47-4474-ab1e-c7d39d32a82f",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "a2985153-db29-4e7f-af47-a1d25c7fc71e",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "elementary"
+                    }
+                },
+                {
+                    "id": "4ebf872d-f054-47b0-a81f-f76221228009",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "output"
+                    }
+                },
+                {
+                    "id": "fe411f72-2787-4925-b825-a85b77075f6a",
+                    "property": "735f3642-52b0-4f1c-90b3-78b0f7bafbeb",
+                    "categorySystem": "c7c8eb64-6072-44ab-9753-5e25f4bac7e2",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "emission"
+                    }
+                },
+                {
+                    "id": "bfdf4da9-dfa2-4eb4-a67b-f82d809583d6",
+                    "property": "5119af08-62a1-4cb3-aa30-527cd72b5d90",
+                    "properties": [
+                        {
+                            "id": "6b968c9b-ce8e-4944-b16b-fb749d6ed39c",
+                            "property": "35478f20-e60e-4aad-82a9-1fcf0f4aea98",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "air"
+                            }
+                        },
+                        {
+                            "id": "926dce76-85ad-481e-bbf3-0946461c8c7a",
+                            "property": "f84fa310-200d-4359-bc12-7b99c4659ec6",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "high stacks"
+                            }
+                        },
+                        {
+                            "id": "931f426c-aa85-4668-93c7-04bf8c7cf1e5",
+                            "property": "9398d975-d406-4276-9755-8c01804a9d61",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "non-urban"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "quantity": {
+                "quantityType": "resultingQuantity",
+                "parameter": {
+                    "referenceType": "internal",
+                    "targetType": "parameter",
+                    "parameterId": "8a9beb88-e3ba-43d7-b86c-e072feb802bc",
+                    "fileId": "b53dfab0-08c7-419f-94f7-26ef02013c70"
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Emissions of heavy metals to soil and surface water estimated from mineral fertilisers and liming as recommended by Canals (2003) and regionalized following Folegatti et al. (2015)."
+                }
+            ],
+            "id": "64b0b059-0553-40a2-923d-7fe78f2e8754",
+            "flowable": "e429b852-e421-4fcb-8a9b-b0241863bfb2",
+            "properties": [
+                {
+                    "id": "d3838dc8-3ec2-4cf7-ac30-a51480224568",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "db60f8af-338e-4396-9937-a0ba61c76996",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "ca2470e7-e3af-4b63-86d5-266d3eb56230",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "elementary"
+                    }
+                },
+                {
+                    "id": "82f50b1e-31a6-4691-bde0-937d703920cd",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "output"
+                    }
+                },
+                {
+                    "id": "2b878b7c-f734-42f2-b74b-a5d2ac92fcb5",
+                    "property": "735f3642-52b0-4f1c-90b3-78b0f7bafbeb",
+                    "categorySystem": "c7c8eb64-6072-44ab-9753-5e25f4bac7e2",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "emission"
+                    }
+                },
+                {
+                    "id": "2b18c4e8-6e2d-45ec-9c8e-bb58d1508a52",
+                    "property": "5119af08-62a1-4cb3-aa30-527cd72b5d90",
+                    "properties": [
+                        {
+                            "id": "18d61eba-4d1f-4a2c-a1bf-70bb98be6ee7",
+                            "property": "35478f20-e60e-4aad-82a9-1fcf0f4aea98",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "soil"
+                            }
+                        },
+                        {
+                            "id": "b25faf60-59ce-4fe8-b04b-b97a84f0f062",
+                            "property": "67bba357-b663-452c-874e-4f0c063a3647",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "agricultural"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": -0.00018442,
+                "unit": "1629204c-b659-4186-9495-dc257c41fab6",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Normal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000265",
+                        "name": "Normal2"
+                    },
+                    "parameters": {
+                        "mean": -0.00018442,
+                        "variance": 0.0513
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Emissions of heavy metals to soil and surface water estimated from mineral fertilisers and liming as recommended by Canals (2003) and regionalized following Folegatti et al. (2015)."
+                }
+            ],
+            "id": "ccd34963-363f-4dd7-9f9b-f76b9f74c20a",
+            "flowable": "af83b42f-a4e6-4457-be74-46a87798f82a",
+            "properties": [
+                {
+                    "id": "0f82ca5e-9667-4cf2-b0cd-dd841b085638",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "748ab32c-53a5-4373-a8e2-f319d6799758",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "c7332488-14e7-4fc7-b070-ff59323d25df",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "elementary"
+                    }
+                },
+                {
+                    "id": "2dc98135-96c5-4489-8406-bb9f8819ff9c",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "output"
+                    }
+                },
+                {
+                    "id": "2fd0d02d-36c5-47e0-823a-c216c091392d",
+                    "property": "735f3642-52b0-4f1c-90b3-78b0f7bafbeb",
+                    "categorySystem": "c7c8eb64-6072-44ab-9753-5e25f4bac7e2",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "emission"
+                    }
+                },
+                {
+                    "id": "a3b9399a-0c3d-4a3f-9027-5f78d4bf4b19",
+                    "property": "5119af08-62a1-4cb3-aa30-527cd72b5d90",
+                    "properties": [
+                        {
+                            "id": "45367f4c-418c-46ee-9dc2-3a716f314151",
+                            "property": "35478f20-e60e-4aad-82a9-1fcf0f4aea98",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "water"
+                            }
+                        },
+                        {
+                            "id": "ba921db0-4908-44a7-b41f-41915161cf1d",
+                            "property": "8868d6d3-6776-443b-90eb-c9ad9119348b",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "surface water"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": -1.8444E-8,
+                "unit": "1629204c-b659-4186-9495-dc257c41fab6",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Normal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000265",
+                        "name": "Normal2"
+                    },
+                    "parameters": {
+                        "mean": -1.8444E-8,
+                        "variance": 0.1013
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "From Folegatti et al. (2015)."
+                }
+            ],
+            "id": "fb12fe81-f91b-40bc-84f5-ebd1d05a654a",
+            "flowable": "7a16b680-6d9a-4db3-a23e-0ec64aca5995",
+            "properties": [
+                {
+                    "id": "4591403b-c4ae-4870-a8bc-77722355d4a6",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "9b015e78-011b-40fb-a87b-1bcfe0e6fbf5",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "62da70b4-37a8-451f-812c-d25aef8a7318",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "elementary"
+                    }
+                },
+                {
+                    "id": "4927f311-4841-49bb-b4fb-60ba24cb0bef",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "input"
+                    }
+                },
+                {
+                    "id": "40a7de35-81cf-47cf-a6bf-a7f056b97551",
+                    "property": "735f3642-52b0-4f1c-90b3-78b0f7bafbeb",
+                    "categorySystem": "c7c8eb64-6072-44ab-9753-5e25f4bac7e2",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "resource extraction"
+                    }
+                },
+                {
+                    "id": "ca4f9d47-6700-4614-aa05-168065558580",
+                    "property": "5119af08-62a1-4cb3-aa30-527cd72b5d90",
+                    "properties": [
+                        {
+                            "id": "4ca32494-bf33-48cb-b783-e48b45800fc5",
+                            "property": "35478f20-e60e-4aad-82a9-1fcf0f4aea98",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "natural resource"
+                            }
+                        },
+                        {
+                            "id": "81c4218d-590d-41ac-9fd5-52bd1c6413af",
+                            "property": "5027f4e3-6af1-47c9-b151-12088a5200b0",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "land"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "quantity": {
+                "quantityType": "resultingQuantity",
+                "parameter": {
+                    "referenceType": "internal",
+                    "targetType": "parameter",
+                    "parameterId": "b125d35c-a319-4219-b5d9-ddb2d7729922",
+                    "fileId": "b53dfab0-08c7-419f-94f7-26ef02013c70"
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Emissions of heavy metals to soil and surface water estimated from mineral fertilisers and liming as recommended by Canals (2003) and regionalized following Folegatti et al. (2015)."
+                }
+            ],
+            "id": "f966f7b1-2162-4041-81a5-f62fb72256c7",
+            "flowable": "e7881581-21b3-4f5c-bd63-6b0684b5e712",
+            "properties": [
+                {
+                    "id": "9177ad25-4fd3-4336-bfc1-21a6b4931b6e",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "e4d9e8a4-3f2f-4078-861d-f86e0cc45584",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "aacbc128-3b57-4ca0-aac2-57c35b3dbf59",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "elementary"
+                    }
+                },
+                {
+                    "id": "4236ecb4-a83b-424c-b654-5e3914d3738f",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "output"
+                    }
+                },
+                {
+                    "id": "2f5c1321-d14f-4097-a050-40028aee7140",
+                    "property": "735f3642-52b0-4f1c-90b3-78b0f7bafbeb",
+                    "categorySystem": "c7c8eb64-6072-44ab-9753-5e25f4bac7e2",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "emission"
+                    }
+                },
+                {
+                    "id": "0262a555-8a6b-4853-8cad-bd1fe6d65f3a",
+                    "property": "5119af08-62a1-4cb3-aa30-527cd72b5d90",
+                    "properties": [
+                        {
+                            "id": "d7bc67cc-f780-4064-9afa-310accc88958",
+                            "property": "35478f20-e60e-4aad-82a9-1fcf0f4aea98",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "soil"
+                            }
+                        },
+                        {
+                            "id": "9ef205d1-7294-473c-a38e-b18f71fb3955",
+                            "property": "67bba357-b663-452c-874e-4f0c063a3647",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "agricultural"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": -0.0015277,
+                "unit": "1629204c-b659-4186-9495-dc257c41fab6",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Normal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000265",
+                        "name": "Normal2"
+                    },
+                    "parameters": {
+                        "mean": -0.0015277,
+                        "variance": 0.0513
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Emissions of heavy metals to soil and surface water estimated from mineral fertilisers and liming as recommended by Canals (2003) and regionalized following Folegatti et al. (2015)."
+                }
+            ],
+            "id": "3718f62e-9c5d-4067-a8a8-acf6dd5af23e",
+            "flowable": "7e66a41c-d311-4949-bdd8-eef09cdcfa47",
+            "properties": [
+                {
+                    "id": "8d22dc46-55f9-4dce-a47e-805a947bd087",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "0c953682-bf6a-41ca-834f-c74021147310",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "281a53ad-1ee5-4fb1-8325-1832873e07c7",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "elementary"
+                    }
+                },
+                {
+                    "id": "88e1b264-4417-4597-8ac6-fdfc21e6dc42",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "output"
+                    }
+                },
+                {
+                    "id": "3bc4a403-0a47-43a4-88b6-7d7f746014b1",
+                    "property": "735f3642-52b0-4f1c-90b3-78b0f7bafbeb",
+                    "categorySystem": "c7c8eb64-6072-44ab-9753-5e25f4bac7e2",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "emission"
+                    }
+                },
+                {
+                    "id": "117cead0-7b65-448d-bb60-c712cf608904",
+                    "property": "5119af08-62a1-4cb3-aa30-527cd72b5d90",
+                    "properties": [
+                        {
+                            "id": "fc5d53cb-f853-474a-8161-c13147a4125a",
+                            "property": "35478f20-e60e-4aad-82a9-1fcf0f4aea98",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "soil"
+                            }
+                        },
+                        {
+                            "id": "dcc7bba1-ee37-4b67-a1c6-5b52a1dbde20",
+                            "property": "67bba357-b663-452c-874e-4f0c063a3647",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "agricultural"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": -0.012193,
+                "unit": "1629204c-b659-4186-9495-dc257c41fab6",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Normal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000265",
+                        "name": "Normal2"
+                    },
+                    "parameters": {
+                        "mean": -0.012193,
+                        "variance": 0.0513
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Emissions of heavy metals to soil and surface water estimated from mineral fertilisers and liming as recommended by Canals (2003) and regionalized following Folegatti et al. (2015)."
+                }
+            ],
+            "id": "bcf2346f-e746-4670-932b-c458abd72b73",
+            "flowable": "e34d3da4-a3d5-41be-84b5-458afe32c990",
+            "properties": [
+                {
+                    "id": "72be0ba0-3174-4a25-a87a-766ab629cfcd",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "db060fce-fca6-4ef8-a2a9-9a87b0105336",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "3ca60340-154b-431d-b164-8d65928c2da6",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "elementary"
+                    }
+                },
+                {
+                    "id": "3a6575fd-4b54-4221-b8f5-1685daf15b09",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "output"
+                    }
+                },
+                {
+                    "id": "6fd8e530-4eda-42b1-aee4-f9241f84e069",
+                    "property": "735f3642-52b0-4f1c-90b3-78b0f7bafbeb",
+                    "categorySystem": "c7c8eb64-6072-44ab-9753-5e25f4bac7e2",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "emission"
+                    }
+                },
+                {
+                    "id": "bc52d71d-ab7d-470b-be59-9392c050d069",
+                    "property": "5119af08-62a1-4cb3-aa30-527cd72b5d90",
+                    "properties": [
+                        {
+                            "id": "62f6d6eb-b8dd-4c06-99a9-450294048882",
+                            "property": "35478f20-e60e-4aad-82a9-1fcf0f4aea98",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "water"
+                            }
+                        },
+                        {
+                            "id": "38b5ae2a-0058-43e5-8cd7-7d304ce97b3a",
+                            "property": "8868d6d3-6776-443b-90eb-c9ad9119348b",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "surface water"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": -1.5278E-7,
+                "unit": "1629204c-b659-4186-9495-dc257c41fab6",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Normal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000265",
+                        "name": "Normal2"
+                    },
+                    "parameters": {
+                        "mean": -1.5278E-7,
+                        "variance": 0.1013
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Emissions of N2O to the air from pasture. See IPCC (2006)."
+                }
+            ],
+            "id": "181424a8-cef5-40cd-b915-3b7a613c9a72",
+            "flowable": "afd6d670-bbb0-4625-9730-04088a5b035e",
+            "properties": [
+                {
+                    "id": "2fe27e70-5352-4e8c-a6fc-710986e66c48",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "43b4cbc1-9e68-4624-9174-07e305bc9967",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "46a49fcf-daf2-43aa-a18c-cb722789ba54",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "elementary"
+                    }
+                },
+                {
+                    "id": "d9e468eb-36d5-4f1b-9554-f38d2733f739",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "output"
+                    }
+                },
+                {
+                    "id": "7052d459-7757-4bd4-af65-bdd4ab313a54",
+                    "property": "735f3642-52b0-4f1c-90b3-78b0f7bafbeb",
+                    "categorySystem": "c7c8eb64-6072-44ab-9753-5e25f4bac7e2",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "emission"
+                    }
+                },
+                {
+                    "id": "cfa1c573-6a68-487c-ac32-8db95397e57e",
+                    "property": "5119af08-62a1-4cb3-aa30-527cd72b5d90",
+                    "properties": [
+                        {
+                            "id": "8f4a6fc8-b990-46a3-90a5-119e0ae8e8a5",
+                            "property": "35478f20-e60e-4aad-82a9-1fcf0f4aea98",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "air"
+                            }
+                        },
+                        {
+                            "id": "e0b21716-69f2-4200-a255-c8150666ad3b",
+                            "property": "f84fa310-200d-4359-bc12-7b99c4659ec6",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "high stacks"
+                            }
+                        },
+                        {
+                            "id": "3c294d98-6977-49f5-b1e7-f3e20385dfcb",
+                            "property": "9398d975-d406-4276-9755-8c01804a9d61",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "non-urban"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "quantity": {
+                "quantityType": "resultingQuantity",
+                "parameter": {
+                    "referenceType": "internal",
+                    "targetType": "parameter",
+                    "parameterId": "f7e0404d-af22-40f3-9366-14aa946087b1",
+                    "fileId": "b53dfab0-08c7-419f-94f7-26ef02013c70"
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Emissions of heavy metals to soil and surface water estimated from mineral fertilisers and liming as recommended by Canals (2003) and regionalized following Folegatti et al. (2015)."
+                }
+            ],
+            "id": "e5da44a0-095f-433d-9f32-47ff871f3b1b",
+            "flowable": "6d9550e2-e670-44c1-bad8-c0c4975ffca7",
+            "properties": [
+                {
+                    "id": "d4f0f946-0e60-4646-92a5-221d4ac350cb",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "77953778-d050-4be5-bb31-68e435bb1f69",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "8f2e43c7-99da-40c5-bf2a-9719a11b06d5",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "elementary"
+                    }
+                },
+                {
+                    "id": "fb176cc4-6dd9-452a-8a26-16ef544e7881",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "output"
+                    }
+                },
+                {
+                    "id": "84e70a91-72ef-4c7e-a2c6-47d73dfebc67",
+                    "property": "735f3642-52b0-4f1c-90b3-78b0f7bafbeb",
+                    "categorySystem": "c7c8eb64-6072-44ab-9753-5e25f4bac7e2",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "emission"
+                    }
+                },
+                {
+                    "id": "8f3e1b34-181d-4f8c-a8f2-6a20d063ac84",
+                    "property": "5119af08-62a1-4cb3-aa30-527cd72b5d90",
+                    "properties": [
+                        {
+                            "id": "81bde6aa-de00-4b39-a70e-1024a8e7ced0",
+                            "property": "35478f20-e60e-4aad-82a9-1fcf0f4aea98",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "water"
+                            }
+                        },
+                        {
+                            "id": "f34d1c0b-52b7-49e4-999c-59be12053007",
+                            "property": "8868d6d3-6776-443b-90eb-c9ad9119348b",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "surface water"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": -0.0000012194,
+                "unit": "1629204c-b659-4186-9495-dc257c41fab6",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Normal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000265",
+                        "name": "Normal2"
+                    },
+                    "parameters": {
+                        "mean": -0.0000012194,
+                        "variance": 0.1013
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Emissions of heavy metals to soil and surface water estimated from mineral fertilisers and liming as recommended by Canals (2003) and regionalized following Folegatti et al. (2015)."
+                }
+            ],
+            "id": "1008e80e-359f-4348-984a-adeac716b5b2",
+            "flowable": "b3ebdcc3-c588-4997-95d2-9785b26b34e1",
+            "properties": [
+                {
+                    "id": "49c90854-4e6e-4d2e-a546-c6b0bf145660",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "d5a137f9-f4b2-4fc0-a280-3be137504b3b",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "20bf2495-f892-47b4-b695-f8cbc74b8381",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "elementary"
+                    }
+                },
+                {
+                    "id": "c38b2ebd-3846-44c1-a737-ce944bb40153",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "output"
+                    }
+                },
+                {
+                    "id": "acb42598-c855-40f0-8c4d-8abdfae503f5",
+                    "property": "735f3642-52b0-4f1c-90b3-78b0f7bafbeb",
+                    "categorySystem": "c7c8eb64-6072-44ab-9753-5e25f4bac7e2",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "emission"
+                    }
+                },
+                {
+                    "id": "782f5284-4584-45b2-b852-2ee737cd83ed",
+                    "property": "5119af08-62a1-4cb3-aa30-527cd72b5d90",
+                    "properties": [
+                        {
+                            "id": "833c1344-2e92-4808-b30a-45c038639e4a",
+                            "property": "35478f20-e60e-4aad-82a9-1fcf0f4aea98",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "water"
+                            }
+                        },
+                        {
+                            "id": "682ca1f7-0531-4850-9e96-783271729ee0",
+                            "property": "8868d6d3-6776-443b-90eb-c9ad9119348b",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "surface water"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": -1.6768E-7,
+                "unit": "1629204c-b659-4186-9495-dc257c41fab6",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Normal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000265",
+                        "name": "Normal2"
+                    },
+                    "parameters": {
+                        "mean": -1.6768E-7,
+                        "variance": 0.1013
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Emissions of heavy metals to soil and surface water estimated from mineral fertilisers and liming as recommended by Canals (2003) and regionalized following Folegatti et al. (2015)."
+                }
+            ],
+            "id": "53cf28f8-942f-452e-862d-9ebed1999e20",
+            "flowable": "b4580545-243d-48d2-a3a0-2633a4f46fb1",
+            "properties": [
+                {
+                    "id": "d1bf3e8e-957d-482a-842a-ad7a92566db5",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "045b0c03-ce0c-437d-a42a-f63566aca8eb",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "d16470dd-47c0-43b3-a96e-c3a937b7a44c",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "elementary"
+                    }
+                },
+                {
+                    "id": "83da44e2-1d64-42ec-bde8-d1e172fe02a8",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "output"
+                    }
+                },
+                {
+                    "id": "79843222-b8c9-4b10-b9b1-42d18ea2ddfb",
+                    "property": "735f3642-52b0-4f1c-90b3-78b0f7bafbeb",
+                    "categorySystem": "c7c8eb64-6072-44ab-9753-5e25f4bac7e2",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "emission"
+                    }
+                },
+                {
+                    "id": "8242d970-f46e-403e-b4c8-bfe823ecad2f",
+                    "property": "5119af08-62a1-4cb3-aa30-527cd72b5d90",
+                    "properties": [
+                        {
+                            "id": "5a278abb-b169-4fa2-89d8-bcf21d3d4a34",
+                            "property": "35478f20-e60e-4aad-82a9-1fcf0f4aea98",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "soil"
+                            }
+                        },
+                        {
+                            "id": "459151cb-bf4c-459b-8eb9-f90804fb81a6",
+                            "property": "67bba357-b663-452c-874e-4f0c063a3647",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "agricultural"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": -0.0023819,
+                "unit": "1629204c-b659-4186-9495-dc257c41fab6",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Normal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000265",
+                        "name": "Normal2"
+                    },
+                    "parameters": {
+                        "mean": -0.0023819,
+                        "variance": 0.0513
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Enteric fermentation and manure management (IPCC, 2006)."
+                }
+            ],
+            "id": "94a971f6-07fe-4e3b-b069-9081ab1d8cfb",
+            "flowable": "57bdb443-d4a6-423d-8024-959b8261d02e",
+            "properties": [
+                {
+                    "id": "f06a0a05-109a-408f-a236-d202bc5b8c0f",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "6e32b89d-50de-4c35-ae82-1bd03ffaf987",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "9c22768d-ec40-42e2-9fb3-37463caf7b79",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "elementary"
+                    }
+                },
+                {
+                    "id": "b06e414a-a17b-4278-b243-e152427d6774",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "output"
+                    }
+                },
+                {
+                    "id": "461830ec-6e45-4e71-ab41-81f189600d2d",
+                    "property": "735f3642-52b0-4f1c-90b3-78b0f7bafbeb",
+                    "categorySystem": "c7c8eb64-6072-44ab-9753-5e25f4bac7e2",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "emission"
+                    }
+                },
+                {
+                    "id": "6c46447f-b37c-43b1-b73f-77a58e7432e5",
+                    "property": "5119af08-62a1-4cb3-aa30-527cd72b5d90",
+                    "properties": [
+                        {
+                            "id": "356d0ba6-7e18-45fd-ac36-38416aab27f0",
+                            "property": "35478f20-e60e-4aad-82a9-1fcf0f4aea98",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "air"
+                            }
+                        },
+                        {
+                            "id": "28be295c-015d-428b-a185-647ceaf213cb",
+                            "property": "f84fa310-200d-4359-bc12-7b99c4659ec6",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "high stacks"
+                            }
+                        },
+                        {
+                            "id": "bce11a46-37da-4c05-bfc2-4799721a70cb",
+                            "property": "9398d975-d406-4276-9755-8c01804a9d61",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "non-urban"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": 0.46368,
+                "unit": "1629204c-b659-4186-9495-dc257c41fab6",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Lognormal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000478",
+                        "name": "LogNormal3"
+                    },
+                    "parameters": {
+                        "median": 0.46368,
+                        "stdevLog": 0.0894427191
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Emissions of heavy metals to soil and surface water estimated from mineral fertilisers and liming as recommended by Canals (2003) and regionalized following Folegatti et al. (2015)."
+                }
+            ],
+            "id": "fa7f6920-6894-4b0d-927a-de6571ea62f0",
+            "flowable": "4010918f-7fd0-4925-8fbb-8fd7a44a806c",
+            "properties": [
+                {
+                    "id": "02b3a7a0-6556-4f43-b5b0-f80785468cb2",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "b893b972-064e-45f0-99c5-e9871eb493ea",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "18c78c3c-a370-429b-b4fb-3783569eb1ae",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "elementary"
+                    }
+                },
+                {
+                    "id": "df065903-8b58-4f33-8767-edb6c9a15e62",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "output"
+                    }
+                },
+                {
+                    "id": "9bbcce88-6f78-4646-87c2-9d18f112ba43",
+                    "property": "735f3642-52b0-4f1c-90b3-78b0f7bafbeb",
+                    "categorySystem": "c7c8eb64-6072-44ab-9753-5e25f4bac7e2",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "emission"
+                    }
+                },
+                {
+                    "id": "5baab917-c82c-4c44-b2c0-d59320138081",
+                    "property": "5119af08-62a1-4cb3-aa30-527cd72b5d90",
+                    "properties": [
+                        {
+                            "id": "ffb11aef-e2a8-4bd7-9210-1267c576a1dc",
+                            "property": "35478f20-e60e-4aad-82a9-1fcf0f4aea98",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "soil"
+                            }
+                        },
+                        {
+                            "id": "823a5e48-5fe1-4cba-bb76-f465e35cc645",
+                            "property": "67bba357-b663-452c-874e-4f0c063a3647",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "agricultural"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": -0.0016767,
+                "unit": "1629204c-b659-4186-9495-dc257c41fab6",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Normal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000265",
+                        "name": "Normal2"
+                    },
+                    "parameters": {
+                        "mean": -0.0016767,
+                        "variance": 0.0513
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "As phosphorus leaching must be disregarded due to its low mobility in Brazilian soils (Novais & Smyth, 1999), only P emission by water erosion through surface water was considered, as in \"2.3.3 Phorsphorous Emissions Through Water Erosion to Surface Water\" Nemecek and Schnetzer (2011)."
+                }
+            ],
+            "id": "622e92e1-00b8-41f5-bbc8-603df0752808",
+            "flowable": "b2631209-8374-431e-b7d5-56c96c6b6d79",
+            "properties": [
+                {
+                    "id": "4ca06663-e4da-4215-862f-7c42311df944",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "28358337-a73f-4d83-9a97-ad5292eefc32",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "9fa21900-236a-4b0b-984f-8a35642a33ef",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "elementary"
+                    }
+                },
+                {
+                    "id": "75dd7d92-9bdb-48bb-9300-355221a8167c",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "output"
+                    }
+                },
+                {
+                    "id": "19717c7b-7489-4076-b6fb-8b5c58444792",
+                    "property": "735f3642-52b0-4f1c-90b3-78b0f7bafbeb",
+                    "categorySystem": "c7c8eb64-6072-44ab-9753-5e25f4bac7e2",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "emission"
+                    }
+                },
+                {
+                    "id": "ec0c14ab-1190-4ca2-952e-c5641aff8d9a",
+                    "property": "5119af08-62a1-4cb3-aa30-527cd72b5d90",
+                    "properties": [
+                        {
+                            "id": "7ba265aa-3c6f-47fd-ba29-e51a436859ae",
+                            "property": "35478f20-e60e-4aad-82a9-1fcf0f4aea98",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "water"
+                            }
+                        },
+                        {
+                            "id": "4750ba83-6312-4818-996e-f831972f5500",
+                            "property": "8868d6d3-6776-443b-90eb-c9ad9119348b",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "surface water"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "quantity": {
+                "quantityType": "resultingQuantity",
+                "parameter": {
+                    "referenceType": "internal",
+                    "targetType": "parameter",
+                    "parameterId": "7e1078c8-85b7-4a70-92dc-7c9c21264115",
+                    "fileId": "b53dfab0-08c7-419f-94f7-26ef02013c70"
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Exchange kept with zero amount only for information that phosphorus leaching must be disregarded due to its low mobility in Brazilian soils (Novais & Smyth, 1999)."
+                }
+            ],
+            "id": "177e9eca-d38c-4e4a-b90c-949204e54708",
+            "flowable": "b1fca66f-8e83-469a-a7b5-018e14d5d545",
+            "properties": [
+                {
+                    "id": "7f1037a1-8cb0-47e7-ace6-d8ba6b66464c",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "ebe6ebdd-1f50-47e7-b268-8e59df5bcd96",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "5aafbbbb-46b8-435a-abfd-fd9c5e073ec9",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "elementary"
+                    }
+                },
+                {
+                    "id": "5332d0cd-45a1-43d7-ab69-e88d99636949",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "output"
+                    }
+                },
+                {
+                    "id": "7704f237-e315-43b5-9293-b899eaf94472",
+                    "property": "735f3642-52b0-4f1c-90b3-78b0f7bafbeb",
+                    "categorySystem": "c7c8eb64-6072-44ab-9753-5e25f4bac7e2",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "emission"
+                    }
+                },
+                {
+                    "id": "1ad51d2b-e1a9-4018-9b6c-bd33fe2e279a",
+                    "property": "5119af08-62a1-4cb3-aa30-527cd72b5d90",
+                    "properties": [
+                        {
+                            "id": "ec9cefc9-f8bf-4b38-bf0f-8e8e97c4b2a5",
+                            "property": "35478f20-e60e-4aad-82a9-1fcf0f4aea98",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "water"
+                            }
+                        },
+                        {
+                            "id": "1f86c135-6748-423f-82ab-36b921776533",
+                            "property": "8868d6d3-6776-443b-90eb-c9ad9119348b",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "groundwater"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": 0,
+                "unit": "1629204c-b659-4186-9495-dc257c41fab6",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Normal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000265",
+                        "name": "Normal2"
+                    },
+                    "parameters": {
+                        "mean": 0,
+                        "variance": 0.0513
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Emissions of heavy metals to soil and surface water estimated from mineral fertilisers and liming as recommended by Canals (2003) and regionalized following Folegatti et al. (2015)."
+                }
+            ],
+            "id": "ade0c831-30ba-45b7-8dc2-5a4865bf7b02",
+            "flowable": "9798359e-a3ee-4362-a038-23a188582c6e",
+            "properties": [
+                {
+                    "id": "ff269fc3-3087-4385-9a3e-dd1b34d577ce",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "803aff07-dec0-477a-8ce7-aeb357d1815b",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "10ce4751-0a8c-4256-8662-4257f6f7aa22",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "elementary"
+                    }
+                },
+                {
+                    "id": "72daf3d7-8554-4c93-8914-6aee6874714d",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "output"
+                    }
+                },
+                {
+                    "id": "810f5228-2499-4faa-a649-abc7c77e27eb",
+                    "property": "735f3642-52b0-4f1c-90b3-78b0f7bafbeb",
+                    "categorySystem": "c7c8eb64-6072-44ab-9753-5e25f4bac7e2",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "emission"
+                    }
+                },
+                {
+                    "id": "e4b4e9b3-8cf0-48f7-96f1-b4d816d73cdd",
+                    "property": "5119af08-62a1-4cb3-aa30-527cd72b5d90",
+                    "properties": [
+                        {
+                            "id": "b4993fec-bc17-4859-955c-d15d977a0e47",
+                            "property": "35478f20-e60e-4aad-82a9-1fcf0f4aea98",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "water"
+                            }
+                        },
+                        {
+                            "id": "08c14f87-c78f-424f-8d4f-97f6ffc0df64",
+                            "property": "8868d6d3-6776-443b-90eb-c9ad9119348b",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "surface water"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": -2.3821E-7,
+                "unit": "1629204c-b659-4186-9495-dc257c41fab6",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Normal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000265",
+                        "name": "Normal2"
+                    },
+                    "parameters": {
+                        "mean": -2.3821E-7,
+                        "variance": 0.1013
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "See \"2.2.2 The SQCB-NO3 model\" in Nemececk & Schnetzer (2011), as \"SALCA-NO3 model\" has \"Geographic scope of application: Europe\"."
+                }
+            ],
+            "id": "402899d4-d356-4d2c-929d-8e17cbb4c68b",
+            "flowable": "b9291c72-4b1d-4275-8068-4c707dc3ce33",
+            "properties": [
+                {
+                    "id": "d5e7fca3-6956-4247-a98c-f39da76b2a0c",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "a3037b87-9f44-4557-9c20-c7402a341d58",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "b1b14f97-410a-4477-a421-3a252ce42ef5",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "elementary"
+                    }
+                },
+                {
+                    "id": "066336ee-6f0a-4e5c-81d4-4f35aea221cb",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "output"
+                    }
+                },
+                {
+                    "id": "19501745-70dc-47e1-be1a-42a742845932",
+                    "property": "735f3642-52b0-4f1c-90b3-78b0f7bafbeb",
+                    "categorySystem": "c7c8eb64-6072-44ab-9753-5e25f4bac7e2",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "emission"
+                    }
+                },
+                {
+                    "id": "08a45c24-2b1a-43c7-ba7b-e5044a17de7a",
+                    "property": "5119af08-62a1-4cb3-aa30-527cd72b5d90",
+                    "properties": [
+                        {
+                            "id": "2fb9c611-1c00-4aa8-9370-178d1e9cb3c1",
+                            "property": "35478f20-e60e-4aad-82a9-1fcf0f4aea98",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "water"
+                            }
+                        },
+                        {
+                            "id": "43a52938-fc13-4e83-916f-3ca04308d166",
+                            "property": "8868d6d3-6776-443b-90eb-c9ad9119348b",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "groundwater"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "quantity": {
+                "quantityType": "resultingQuantity",
+                "parameter": {
+                    "referenceType": "internal",
+                    "targetType": "parameter",
+                    "parameterId": "49716169-e3c6-4d6c-ae0b-559f7aa83b56",
+                    "fileId": "b53dfab0-08c7-419f-94f7-26ef02013c70"
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Emissions of heavy metals to soil and surface water estimated from mineral fertilisers and liming as recommended by Canals (2003) and regionalized following Folegatti et al. (2015). Nemecek & Schnetzer (2011) state that \"some of the values for emissions of heavy metals to the soil are negative. This means that more heavy metals are exported than imported. It must, however, be borne in mind that these heavy metals are transferred either to the water bodies or to the products harvested from the field\". As we've got a negative estimation for this heavy metal emission, we zeroed it on the dataset."
+                }
+            ],
+            "id": "79962f65-5264-4870-a188-a01800108698",
+            "flowable": "84aa799e-9d98-4d34-85e0-516d28ab1be9",
+            "properties": [
+                {
+                    "id": "633a2316-5036-486b-bdd7-9dd9204cdc0f",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "a3da7a7d-b34d-4828-846a-363fd9f538cb",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "b8246579-defc-4a5a-8ff5-d049159b27d8",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "elementary"
+                    }
+                },
+                {
+                    "id": "d11ee2f7-29ae-410b-9ae5-51c567b58135",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "output"
+                    }
+                },
+                {
+                    "id": "25479113-24ae-4df8-9e2d-a4c60fed3a20",
+                    "property": "735f3642-52b0-4f1c-90b3-78b0f7bafbeb",
+                    "categorySystem": "c7c8eb64-6072-44ab-9753-5e25f4bac7e2",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "emission"
+                    }
+                },
+                {
+                    "id": "3ca0f145-4e7e-4b3e-9d88-6e23a84ac037",
+                    "property": "5119af08-62a1-4cb3-aa30-527cd72b5d90",
+                    "properties": [
+                        {
+                            "id": "f4ba78eb-7491-48e3-bf17-783ff292f77e",
+                            "property": "35478f20-e60e-4aad-82a9-1fcf0f4aea98",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "soil"
+                            }
+                        },
+                        {
+                            "id": "2a8c1ec6-cbf2-4c28-9fe4-f6e32c3fd531",
+                            "property": "67bba357-b663-452c-874e-4f0c063a3647",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "agricultural"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": -0.056238,
+                "unit": "1629204c-b659-4186-9495-dc257c41fab6",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Normal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000265",
+                        "name": "Normal2"
+                    },
+                    "parameters": {
+                        "mean": -0.056238,
+                        "variance": 0.0513
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Emissions of NOx to the air. See \"2.5 EMISSIONS OF NOX TO THE AIR\" in Nemecek and Schnetzer (2011)."
+                }
+            ],
+            "id": "f8a6dfd5-aeb5-410f-b8dd-9a8be51f643d",
+            "flowable": "77357947-ccc5-438e-9996-95e65e1e1bce",
+            "properties": [
+                {
+                    "id": "3ccc1f35-9b25-476d-a01b-9fe1ef000038",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "b8a95cf4-82c8-4497-a223-31ba150c80c0",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "d7d0ed1b-cd9d-441f-b465-57bf92de9c14",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "elementary"
+                    }
+                },
+                {
+                    "id": "406bcadf-3889-4159-9f81-9cc2c0d716af",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "output"
+                    }
+                },
+                {
+                    "id": "1bd47d22-777a-43d7-b5cc-b79c940ea549",
+                    "property": "735f3642-52b0-4f1c-90b3-78b0f7bafbeb",
+                    "categorySystem": "c7c8eb64-6072-44ab-9753-5e25f4bac7e2",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "emission"
+                    }
+                },
+                {
+                    "id": "6331633b-1764-4a8b-ab57-9b4348b40dbe",
+                    "property": "5119af08-62a1-4cb3-aa30-527cd72b5d90",
+                    "properties": [
+                        {
+                            "id": "eb802519-7011-4ad3-a2b4-ab4ea65734a4",
+                            "property": "35478f20-e60e-4aad-82a9-1fcf0f4aea98",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "air"
+                            }
+                        },
+                        {
+                            "id": "73867e24-047c-4a98-9bb7-9e357c46e23d",
+                            "property": "f84fa310-200d-4359-bc12-7b99c4659ec6",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "high stacks"
+                            }
+                        },
+                        {
+                            "id": "d4062ecb-972e-415b-8eec-e8f1ca6508db",
+                            "property": "9398d975-d406-4276-9755-8c01804a9d61",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "non-urban"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "quantity": {
+                "quantityType": "resultingQuantity",
+                "parameter": {
+                    "referenceType": "internal",
+                    "targetType": "parameter",
+                    "parameterId": "a522090f-9b3c-422a-b836-2d2b7c74fd5d",
+                    "fileId": "b53dfab0-08c7-419f-94f7-26ef02013c70"
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "From Folegatti et al. (2015)."
+                }
+            ],
+            "id": "77152d21-4377-45c5-a60b-d518e06a23c8",
+            "flowable": "59ded913-17fe-4b3e-80cb-79b97cdbef9a",
+            "properties": [
+                {
+                    "id": "8d927bf0-1e64-4361-80e0-5bfddf51b1e4",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "13b28968-51d7-4953-83a9-806969e8b6f5",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "64b20357-3f4f-4c38-91f5-909ffc56f032",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "elementary"
+                    }
+                },
+                {
+                    "id": "021451ec-90af-4c6a-bfc0-3c6d8e874135",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "input"
+                    }
+                },
+                {
+                    "id": "1ef80008-5168-48c6-a5b4-ee161026347f",
+                    "property": "735f3642-52b0-4f1c-90b3-78b0f7bafbeb",
+                    "categorySystem": "c7c8eb64-6072-44ab-9753-5e25f4bac7e2",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "resource extraction"
+                    }
+                },
+                {
+                    "id": "7b8b5945-bf1d-449b-84bc-09cf9c3b6ec5",
+                    "property": "5119af08-62a1-4cb3-aa30-527cd72b5d90",
+                    "properties": [
+                        {
+                            "id": "60be107e-5c8e-42cb-9c9c-5c75f7ec9a4b",
+                            "property": "35478f20-e60e-4aad-82a9-1fcf0f4aea98",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "natural resource"
+                            }
+                        },
+                        {
+                            "id": "b3096eb1-157f-4308-850d-c639757eff79",
+                            "property": "5027f4e3-6af1-47c9-b151-12088a5200b0",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "land"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": 59.094,
+                "unit": "9a7feed4-56f4-4376-9834-20bd9f7352ac",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Lognormal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000478",
+                        "name": "LogNormal3"
+                    },
+                    "parameters": {
+                        "median": 59.094,
+                        "stdevLog": 0.0447213595
+                    }
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Balance of energy content, considering product, by-product and the main exchanges from technosphere, only."
+                }
+            ],
+            "id": "311d3d26-9da9-4228-87bc-dc4a27952e46",
+            "flowable": "01c12fca-ad8b-4902-8b48-2d5afe3d3a0f",
+            "properties": [
+                {
+                    "id": "981b6a9e-0c80-4a06-a2aa-91fa7638cb9c",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "09bd24e0-2e7a-4a6a-b13d-9c4c45b5fc4e",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "4d5c2eb8-8a0a-4dfe-a879-4bc6171f5d7e",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "elementary"
+                    }
+                },
+                {
+                    "id": "27adfb03-b70a-4e74-b345-055faa9239ab",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "input"
+                    }
+                },
+                {
+                    "id": "ad80d3be-a4ea-42c7-946a-5ad325c0d9e7",
+                    "property": "735f3642-52b0-4f1c-90b3-78b0f7bafbeb",
+                    "categorySystem": "c7c8eb64-6072-44ab-9753-5e25f4bac7e2",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "resource extraction"
+                    }
+                },
+                {
+                    "id": "bf3fde62-8411-441a-a6ed-c85006d1c3c6",
+                    "property": "5119af08-62a1-4cb3-aa30-527cd72b5d90",
+                    "properties": [
+                        {
+                            "id": "affe75c4-e680-4a2c-8721-34a8573a6de3",
+                            "property": "35478f20-e60e-4aad-82a9-1fcf0f4aea98",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "natural resource"
+                            }
+                        },
+                        {
+                            "id": "21d4d8e4-88c6-4b66-b523-b4a171c3bf43",
+                            "property": "5027f4e3-6af1-47c9-b151-12088a5200b0",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "biotic"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "quantity": {
+                "quantityType": "resultingQuantity",
+                "parameter": {
+                    "referenceType": "internal",
+                    "targetType": "parameter",
+                    "parameterId": "e32f4297-9ef0-4bb8-bf96-4523eeebf90e",
+                    "fileId": "b53dfab0-08c7-419f-94f7-26ef02013c70"
+                }
+            }
+        },
+        {
+            "comments": [
+                {
+                    "text": "Emissions of heavy metals to soil and surface water estimated from mineral fertilisers and liming as recommended by Canals (2003) and regionalized following Folegatti et al. (2015). Nemecek & Schnetzer (2011) state that \"some of the values for emissions of heavy metals to the soil are negative. This means that more heavy metals are exported than imported. It must, however, be borne in mind that these heavy metals are transferred either to the water bodies or to the products harvested from the field\". As we've got a negative estimation for this heavy metal emission, we zeroed it on the dataset."
+                }
+            ],
+            "id": "91ca929b-d454-4cfc-9105-4babfb899f50",
+            "flowable": "541b633c-17a3-4047-bce6-0c0e4fdb7c10",
+            "properties": [
+                {
+                    "id": "2c756305-96e3-4131-8133-51b69f7269bb",
+                    "property": "63435e58-cd43-4c7b-a916-b49bdf2aef49",
+                    "categorySystem": "21252d11-0d48-484f-9ea0-0ea320b3b2aa",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "33432"
+                    }
+                },
+                {
+                    "id": "44da8611-ed90-47b6-b808-51ee4a054aa6",
+                    "property": "24964ee1-b167-4921-90d9-1b7aa18394ae",
+                    "value": {
+                        "quantityType": "singleQuantity",
+                        "amount": 0.01186957118332390594,
+                        "unit": "0a37b4cb-85c4-4990-a01f-d0d15b329c94"
+                    }
+                },
+                {
+                    "id": "b841e934-b4b5-4143-8ad0-0485d39a2336",
+                    "property": "5cc54527-0cb9-4180-82cc-d13240e94e50",
+                    "categorySystem": "e009a671-5251-4e7d-8da3-679385441e62",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "elementary"
+                    }
+                },
+                {
+                    "id": "53bbe47f-3727-42ce-ad78-71f2e5a0fc88",
+                    "property": "42b3c201-539f-4891-97cc-66156ac53083",
+                    "categorySystem": "3515e1c0-99f6-48e8-a8bd-310c6c9392b5",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "output"
+                    }
+                },
+                {
+                    "id": "748d26b7-8152-4228-a4cc-4a4be63c2a12",
+                    "property": "735f3642-52b0-4f1c-90b3-78b0f7bafbeb",
+                    "categorySystem": "c7c8eb64-6072-44ab-9753-5e25f4bac7e2",
+                    "value": {
+                        "categoryType": "singleCategory",
+                        "label": "emission"
+                    }
+                },
+                {
+                    "id": "2c85b34b-252c-4c86-b03f-dff508d5186f",
+                    "property": "5119af08-62a1-4cb3-aa30-527cd72b5d90",
+                    "properties": [
+                        {
+                            "id": "d6f14c99-d3c2-4897-9b22-477c0bc93dce",
+                            "property": "35478f20-e60e-4aad-82a9-1fcf0f4aea98",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "water"
+                            }
+                        },
+                        {
+                            "id": "f21aec0e-cf1d-48bc-b738-8d95f88e1513",
+                            "property": "8868d6d3-6776-443b-90eb-c9ad9119348b",
+                            "value": {
+                                "categoryType": "singleCategory",
+                                "label": "surface water"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "quantity": {
+                "quantityType": "singleQuantity",
+                "amount": -0.0000056243,
+                "unit": "1629204c-b659-4186-9495-dc257c41fab6",
+                "uncertainty": {
+                    "uncertaintyType": "probabilityDistribution",
+                    "distributionName": "Normal",
+                    "probontoId": {
+                        "uri": "http://www.probonto.org/ontology#PROB_k0000265",
+                        "name": "Normal2"
+                    },
+                    "parameters": {
+                        "mean": -0.0000056243,
+                        "variance": 0.1013
+                    }
+                }
+            }
+        }
+    ],
+    "fileInformation": {
+        "downloadableURI": "https://example.com/file_fd97fd2b-c6c1-482d-9f90-4314950d1a56",
+        "versioning": {
+            "datasetVersion": "3.0.27",
+            "schemaVersion": "2.0.12"
+        },
+        "timestamp": {
+            "creation": "2017-08-14T01:04:37Z",
+            "lastEdit": "2018-07-16T11:05:03Z"
+        }
+    }
+}

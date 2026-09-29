@@ -1,0 +1,23 @@
+./validate_cue_schemas_and_examples.sh
+	All must pass without comments
+
+./patch_cue.sh
+	Patches the correction for recursive cue entries (like composite properties)
+
+./cue_to_json_schema.sh
+	Converts CUE to a raw JSON Schema
+	Cleans the JSON Schema regarding duplications and extra fields coming from the conversion
+	Verifies the JSON Schema for Draft 20/2012
+	Creates examples of JSON files from cue
+	Verifies these examples using the generated JSON Schema
+
+./json_schema_to_pydantic.sh
+	Prepares a Pydantic version of the JSON Schema
+	Converts the JSON Schema modified to a Pydantic model (applies validation as well)
+	Adds a block to Pydantic to generate incomplete Pydantic models
+
+./generate_grammar.sh
+	~Needs the ANTLR dir in the root
+	Downloads the ANTLR package
+	Generates the grammar from the g4 file
+
